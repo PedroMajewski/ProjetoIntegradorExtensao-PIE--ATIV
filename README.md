@@ -8,7 +8,7 @@ Projeto de Extensão, com criação de uma aplicação web para academia - ATIV 
 
 **REQUISITOS FUNCIONAIS**
 
-***RF01 - Organização:** O site deve ter um espaço com fotos da estrutura do
+**RF01 - Organização:** O site deve ter um espaço com fotos da estrutura do
 local.
 
 **RF02 - Informação:** O site terá uma aba “Sobre” contando um pouco sobre a
