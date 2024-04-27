@@ -1,0 +1,78 @@
+.duvidas-frequentes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #101010;
+    height: 719px;
+    position: relative;
+}
+
+.duvidasf{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+    height: 89px;
+    width: 241px;   
+    position: absolute;
+}
+
+#duvidas{
+    font-size: 35px;
+}
+
+#frequentes{
+    font-size: 40px;
+}
+
+.duvida1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 248px;
+    background-color: #009F4C;
+    border-radius: 16px;
+    height: 223px;
+    width: 336px;
+}
+
+.duvida2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 248px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: #009F4C;
+    border-radius: 16px;
+    height: 223px;
+    width: 336px;
+}
+
+.duvida3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 248px;
+    background-color: #009F4C;
+    border-radius: 16px;
+    height: 223px;
+    width: 336px;
+}
+
+.pergunta{
+ font-weight: bold;
+ margin-top: 35px;
+ color: #fff;
+ text-align: center;
+ font-size: 20px;
+}
+
+.resposta{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
