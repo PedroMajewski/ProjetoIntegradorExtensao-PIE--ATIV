@@ -85,8 +85,8 @@
     flex: 1;
 }
 
-footer > hr{
-    width: 90%;
+hr{
+    width: 50%;
     background-color: #1f1f1f; height: 0.1rem; border: 0;
 }
 

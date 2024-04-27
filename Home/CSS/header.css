@@ -18,6 +18,14 @@
     margin-top: 1rem;
 }
 
+.icons-menu-mobile{
+    display: none;
+}
+
+.menu-mobile{
+    display: none;
+}
+
 
 .header-pc > img{
     transition: .2s;
