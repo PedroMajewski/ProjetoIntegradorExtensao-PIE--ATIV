@@ -1,0 +1,58 @@
+.diferencial-div{
+    background-color: #00C65E;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.diferencial-div h1{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 1px;
+
+}
+.diferencial-div h2{
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+
+.quadrado-principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.quadrado-principal .quadrado1,
+.quadrado-principal .quadrado2,
+.quadrado-principal .quadrado3{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #333;
+    margin: 10px;
+    
+}
+
+.quadrado1::before {
+    content: "Yoga"; 
+    color: #fff; 
+    font-size: 16px; 
+    text-align: center; 
+}
+
+.quadrado2::before {
+    content: "Sippining"; 
+    color: #fff; 
+    font-size: 16px; 
+    text-align: center; 
+}
+
+.quadrado3::before {
+    content: "Circuito"; 
+    color: #fff; 
+    font-size: 16px; 
+    text-align: center; 
+    
+}
