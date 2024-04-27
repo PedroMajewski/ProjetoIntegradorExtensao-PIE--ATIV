@@ -12,7 +12,8 @@ body{
     background-image: url('../Assets/Header/Fundo-Temp.png');
     background-repeat: no-repeat;
     background-position: top;
-    background-size: cover;
+    background-size: contain;
+    background-attachment:local;
     background-color: var(--cor-fundo);
 }
 
