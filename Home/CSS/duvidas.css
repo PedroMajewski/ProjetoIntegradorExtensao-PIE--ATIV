@@ -105,28 +105,30 @@
     justify-content: center;
     align-items: center;
     background-color: transparent;
-    border-width: 3px;
+    border-width: 2px;
     border-color: #00C65E;
     border-radius: 8px;
     border-style: solid;
-    height: 60px;
-    width: 289px;
+    height: 3rem;
+    width: 15rem;
     position: absolute;
     bottom: 80px;
     left: 50%;
     transform: translateX(-50%);  
+    transition: .2s;
 }
 
 .botao-duvidas:hover{
     cursor: pointer;
-    transform: translateX(-50%) scale(1.1) translateY(-5px);
+    transform: translateX(-50%) scale(1.1);
     box-shadow: 0 0 10px 5px rgba(0, 198, 94, 0.7);
+    transition: .2s;
 }
 
 .botao-texto{
     color: #00C65E;
     text-align: center;
-    font-size: 20px;
+    font-size: 0.9rem;
     font-style: italic;
     font-weight: 700;
 }
