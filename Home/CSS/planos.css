@@ -61,22 +61,26 @@
     margin: 0 5px; 
     padding: 0.35rem;
 }
-. button{
+.text button{
     border-style: solid;
-    border-color: #fff;
+    border-color: #00C65E;
     border-radius: 1rem;
     border-width: 0.125rem;
-    padding: 0.8rem 1.5rem;
+    height: 3rem;
+    width: 9rem;
     font-size: 0.9rem;
     font-style: italic;
     font-weight: 600;
+    padding: 0;
+    padding-top: 0;
     background-color: transparent;
     color: #fff;
     cursor: pointer;
     transition: .2s;
     margin-left: 1rem;
+    margin-top: 16rem;
 }
-.planos button:hover{
+.text button:hover{
     background-color: var(--cor-principal);
     border-color: var(--cor-principal);
     transition: .2s;
