@@ -18,20 +18,27 @@
 .planos h3{
     font-size: 1.5rem;
     position: absolute;
-    margin-right: auto;
+    margin-right: 3rem;
     margin-top: 3rem;
 }
 .planos .text{
     display: flex;
-    padding: auto;
+    padding: 0;
+    padding-left: -2rem;
     position: absolute;
-    align-items: center;
+    align-items:flex-start;
+    justify-items: left;
     font-size: 1rem;
     margin-top: 3.5rem;
     margin-right: 5.8rem;
+    margin-left: 0;
 }
-.planos .preco{
+.planos .preco1, .planos .preco2,
+.planos .preco3{
     font-size: 1.8rem;
+}
+.planos .preco2{
+    margin-left: -1.3rem;
 }
 .div-planos{
     display: flex;
@@ -46,7 +53,7 @@
     justify-content: center;
     width: 240px;
     height: 400px;
-    border: 1px solid white;
+    border: 0 solid white;
     border-radius: 10px;
     margin: 3rem;
 }
