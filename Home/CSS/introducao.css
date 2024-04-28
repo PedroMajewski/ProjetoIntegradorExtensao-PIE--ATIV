@@ -40,10 +40,12 @@ body{
     margin-top: -1rem;
     letter-spacing: 0.4rem;
     font-weight: 400;
+    transition: .2s;
 }
 
 .introducao a:hover{
     text-shadow: 0 0rem 0.5rem var(--cor-claro);
+    transition: .2s;
 }
 
 .borda-ativ{
