@@ -47,10 +47,22 @@
     margin-top: 5rem;
     margin-left: -5.7rem;
 }
-.planos .textImage img{
+.textimage1 {
     display: flex;
-    padding-bottom: 9rem;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: -13.5rem;
+    margin-top: 5.9rem; 
 }
+
+.textimage1 img {
+    width: 0.5rem; 
+    height: 0.5rem; 
+    margin: 0 5px; 
+    padding: 0.35rem;
+}
+
+
 .planos .preco1, .planos .preco2,
 .planos .preco3{
     font-size: 1.8rem;
@@ -80,4 +92,3 @@
     background-size: cover;
     background-position: center;
 }
-
