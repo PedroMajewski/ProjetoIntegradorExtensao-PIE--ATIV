@@ -61,6 +61,56 @@
     margin: 0 5px; 
     padding: 0.35rem;
 }
+. button{
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 1rem;
+    border-width: 0.125rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    font-weight: 600;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+    margin-left: 1rem;
+}
+.planos button:hover{
+    background-color: var(--cor-principal);
+    border-color: var(--cor-principal);
+    transition: .2s;
+    transform: scale(1.1);
+    box-shadow: 0 0 1.2rem var(--cor-principal);
+}
+.textimage2 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: -13.8rem;
+    margin-top: 5.9rem; 
+}
+
+.textimage2 img {
+    width: 0.5rem; 
+    height: 0.5rem; 
+    margin: 0 5px; 
+    padding: 0.35rem;
+}
+.textimage3 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: -13.5rem;
+    margin-top: 5.9rem; 
+}
+
+.textimage3 img {
+    width: 0.5rem; 
+    height: 0.5rem; 
+    margin: 0 5px; 
+    padding: 0.35rem;
+}
 
 
 .planos .preco1, .planos .preco2,
