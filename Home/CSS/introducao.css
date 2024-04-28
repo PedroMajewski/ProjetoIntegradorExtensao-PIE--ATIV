@@ -65,7 +65,8 @@ body{
     flex-direction: column;
     margin-top: -0.2rem;
     background-color: var(--cor-fundo);
-    height: 20rem;
+    height: 50%;
+    padding: 4rem;
 }
 
 .sobre-nos h1{
@@ -83,6 +84,64 @@ body{
     text-align: center;
     font-weight: 400;
     line-height: 1.6rem;
+    
+}
+
+@media screen and (min-width:451px) and (max-width:1100px) {
+    
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow", sans-serif;
+    background-image: url('../Assets/Header/Fundo-Mobile.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-color: var(--cor-fundo);
+}
+
+.introducao{
+    height: 40rem;
+    text-align: center;
+}
+
+.introducao h1{
+    font-size: 2rem;
+}
+
+.introducao a{
+    letter-spacing: 0rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.borda-ativ{
+    display: none;
+}
+
+.borda-ativ-mobile{
+    display: flex;
+    max-width: 100%;
+}
+
+.sobre-nos{
+    background-color: var(--cor-fundo);
+    height: 45%;
+    padding: 2rem 1rem;
+}
+
+.sobre-nos h1{
+    font-size: 1.8rem;
+}
+
+.sobre-nos p {
+    color: #fff;
+    width: 75%;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.6rem;
+    
+}
 }
 
 @media screen and (max-width:450px) {
