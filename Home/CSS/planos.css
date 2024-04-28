@@ -1,0 +1,53 @@
+.planos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40rem;
+}
+.planos h1{
+    color: #00C65E;
+    text-align: center;
+}
+.planos h2{
+    text-align: center;
+    color: white;
+    font-size: small;
+    font-weight: 100;
+}
+.div-planos{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+.div-planos .plano1, .div-planos .plano2,
+.div-planos .plano3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 400px;
+    border: 1px solid white;
+    margin: 3rem;
+}
+.plano1::before{
+    content: "Plano Especial";
+}
+.plano2::before{
+    content: "Diária";
+}
+.plano3::before{
+    content: "Plano Mensal";
+}
+.div-planos .plano1{
+    background-image: url(Assets/Planos/Rectangle41.jpg);
+}
+.div-planos .plano2{
+    background-image: url(/Assets/Planos/Rectangle42.jpg);
+}
+.div-planos .plano3{
+    background-image: url(/Assets/Planos/Rectangle43.jpg);
+}
