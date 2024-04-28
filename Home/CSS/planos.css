@@ -16,29 +16,44 @@
     font-weight: 100;
 }
 .planos h3{
+    display: flex;
     font-size: 1.5rem;
     position: absolute;
-    margin-right: 3rem;
     margin-top: 3rem;
+    text-align: center;
+    padding-left: 1.5rem;
 }
 .planos .text{
     display: flex;
-    padding: 0;
-    padding-left: -2rem;
+    text-align: left;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
     position: absolute;
-    align-items:flex-start;
-    justify-items: left;
     font-size: 1rem;
     margin-top: 3.5rem;
-    margin-right: 5.8rem;
-    margin-left: 0;
+    margin-right: 0;
+}
+.planos .descricaoPlano1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -7rem;
+    margin-top: 5rem;
+    text-align: left;
+    align-items: center;
+}
+.planos .descricaoPlano2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    margin-left: -5.7rem;
+}
+.planos .textImage img{
+    display: flex;
+    padding-bottom: 9rem;
 }
 .planos .preco1, .planos .preco2,
 .planos .preco3{
     font-size: 1.8rem;
-}
-.planos .preco2{
-    margin-left: -1.3rem;
 }
 .div-planos{
     display: flex;
@@ -50,7 +65,8 @@
 .div-planos .plano3{
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    
     width: 240px;
     height: 400px;
     border: 0 solid white;
