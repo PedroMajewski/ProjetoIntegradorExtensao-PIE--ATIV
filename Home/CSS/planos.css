@@ -7,15 +7,28 @@
 .planos h1{
     color: #00C65E;
     text-align: center;
+    font-size:2rem
 }
 .planos h2{
     text-align: center;
     color: white;
-    font-size: small;
+    
     font-weight: 100;
 }
 .planos h3{
+    font-size: 1.5rem;
     position: absolute;
+    margin-right: 3rem;
+    margin-top: 3rem;
+}
+.planos .text{
+    position: absolute;
+    font-size: 1rem;
+    margin-top: 3.5rem;
+    margin-right: 5.8rem;
+}
+.planos .preco{
+    font-size: 1.8rem;
 }
 .div-planos{
     display: flex;
