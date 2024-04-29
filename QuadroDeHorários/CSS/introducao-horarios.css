@@ -59,7 +59,7 @@ body{
     background-image: url('../../Home/Assets/Pag-horarios/introducao-.png');
     background-repeat: no-repeat;
     background-position: top;
-    background-size: contain;
+    background-size: 250%;
     background-color: var(--cor-fundo);
 }
 
@@ -88,12 +88,12 @@ body{
     background-image: url('../../Home/Assets/Pag-horarios/introducao-.png');
     background-repeat: no-repeat;
     background-position: top;
-    background-size: contain;
+    background-size: 300%;
     background-color: var(--cor-fundo);
 }
 
 .introducao-horarios{
-    height: 40rem;
+    height: 30rem;
     text-align: center;
 }
 

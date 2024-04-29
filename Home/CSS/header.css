@@ -87,6 +87,11 @@ content: '';
     box-shadow: 0 0.5rem 1.2rem var(--cor-principal);
   }
 
+  .navbar-header a{
+    color: var(--cor-claro);
+    text-decoration: none;
+}
+
 
 .navbar-header button{
     border-style: solid;
@@ -350,6 +355,7 @@ content: '';
       transform: scale(0,1);
       color: var(--cor-principal);
     }
+
     
     .navbar-header h3:hover:after {
         opacity: 1;

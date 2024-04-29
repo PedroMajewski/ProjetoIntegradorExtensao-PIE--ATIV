@@ -31,10 +31,10 @@
         <div class="header-pc">
             <img src="./Assets/Header/Logo.png" alt="ATIV" height="70">
             <div class="navbar-header">
-                <h3>Início</h3>
-                <h3>Estrutura</h3>
-                <h3>Horários</h3>
-                <h3>Dúvidas Frenquentes</h3>
+                <h3><a href="../Home/index.html">Início</a></h3>
+                <h3><a href="#portifolio">Estrutura</a></h3>
+                <h3><a href="../QuadroDeHorários/index.html">Horários</a></h3>
+                <h3><a href="#duvidas-frequentes">Dúvidas Frenquentes</a></h3>
                 <a href="https://www.instagram.com/ativ.academia/" target="_blank"><img src="./Assets/Header/Icone-Instagram.svg" alt="Instagram" height="25"></a>
                 <a href="https://api.whatsapp.com/send?phone=554533777654" target="_blank"><img src="./Assets/Header/Icone-WhatsApp.svg" alt="Instagram" height="25"></a>
                 <button>Matricule-se Hoje!</button>
@@ -57,12 +57,10 @@
         <nav class="menu-mobile">
             <img src="./Assets/Header/Logo-mobile.png" alt="Logo" height="50">
         <ul>
-            <li><a href="">Início</a></li>
-            <li><a href="">Serviços</a></li>
-            <li><a href="">História</a></li>
-            <li><a href="">Profissionais</a></li>
-            <li><a href="">Agendamento</a></li>
-            <li><a href="">Horários</a></li>
+            <li><a href="../Home/index.html">Início</a></li>
+            <li><a href="#portifolio">Serviços</a></li>
+            <li><a href="#sobre-nos">História</a></li>
+            <li><a href="../QuadroDeHorários/index.html">Horários</a></li>
         </ul>
         <hr>
         <div class="icons-menu-mobile">
@@ -74,7 +72,7 @@
     </header>
 
     <main>
-        <section class="introducao">
+        <section class="introducao" id="introducao">
             <h1>A vida acontece em movimento!</h1>
             <a href="#mapa">R. Mal. Deodoro, 1700 - Centro, Foz do Iguaçu</a>
         </section>
@@ -82,7 +80,7 @@
             <img class="borda-ativ" src="./Assets/Home/Borda ATIV.png" alt="" style="padding: 0;">
             <img class="borda-ativ-mobile" src="./Assets/Home/Borda ATIV-mobile.png" alt="" style="padding: 0;">
         </section>
-        <section class="sobre-nos">
+        <section class="sobre-nos" id="sobre-nos">
             <h1>Sobre nós</h1>
             <p>Na <strong>ATIV</strong>, vocês não são apenas alunos; são uma parte vital da energia que torna este lugar especial.
 
@@ -91,13 +89,33 @@
                 A ideia de que strong"Sem sacrifício não há vitória" ressoa em seus esforços diários. A dedicação constante de cada aluno é o que torna a Ativ mais do que uma academia, é uma comunidade de pessoas comprometidas.</p>
         </section>
 
+        <!-- DIV DANLEY - PORTFOLIO RECOMENDAÇÃO -->
+        <!--
+        <section>
+            <div class="estrutura-texto">
+                <h1>Estrutura</h1>
+                <p> Conheça nosso espaço </p>
+            </div>
+            <div class ="portifolio" id="portifolio">
+                <article class="portifolio" id="portifolio">
+                    <img src="Assets/img/portifolio/foto1.jpg" alt="foto1" width="300" height="300">
+                    <img src="Assets/img/portifolio/foto2.jpg" alt="foto 2" width="300" height="300">
+                    <img src="Assets/img/portifolio/foto3.jpg" alt="foto 3" width="300" height="300">
+                    <img src="Assets/img/portifolio/foto4.jpg" alt="foto 4" width="300" height="300">
+                    <img src="Assets/img/portifolio/foto5.jpeg" alt="foto 5  " width="300" height="300">
+                    <img src="Assets/img/portifolio/foto6.webp" alt="foto  6" width="300" height="300">
+                </article>
+            </div>
+        </section>
+        -->
+
         <section class="estrutura-texto">
             <h1>Estrutura</h1>
             <p> Conheça nosso espaço </p>
            
         </section>
         </section>
-        <section class ="portifolio">
+        <section class ="portifolio" id="portifolio">
             <article class="portifolio" id="portifolio">
                 <div class="div-portifolio"><img src="Assets/img/portifolio/foto1.jpg" alt="foto1" width="300" height="300"></div>
                 <div class="div-portifolio"><img src="Assets/img/portifolio/foto2.jpg" alt="foto 2" width="300" height="300"></div>
@@ -107,6 +125,7 @@
                 <div class="div-portifolio"><img src="Assets/img/portifolio/foto6.webp" alt="foto  6" width="300" height="300"></div>
             </article>
         </section>
+        
         <section>
         <div class="diferencial-div">
             <h1>Nossos</h1>
@@ -185,7 +204,7 @@
 
         <!--DÚVIDAS FREQUENTES-->
         <section>
-            <div class="duvidas-frequentes">
+            <div class="duvidas-frequentes" id="duvidas-frequentes">
                     <p class="duvidasf">
                         <span id="duvidas">Dúvidas</span><br><span id="frequentes">Frenquentes</span>
                     </p>
