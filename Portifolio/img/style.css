@@ -4,9 +4,9 @@ body{
 
 .neon-text {
     font-family: Arial, Helvetica, sans-serif;
-    color: #00FF00; /* Verde limão */
+    color: #00FF00; 
     margin-left: 7rem;
-    text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00; /* Sombras apenas para o brilho interno */
+    text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00; 
 }
 
  
