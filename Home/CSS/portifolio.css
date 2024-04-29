@@ -1,5 +1,6 @@
 body{
     background-color:#101010;
+    margin-top: none;
     
 }
 
@@ -21,6 +22,7 @@ body{
     font-size: 2.2rem;
     font-family: "Barlow", sans-serif;
      margin-left: 11rem;
+     
     
 
 }
@@ -29,7 +31,8 @@ body{
     grid-template-columns: repeat(3, 1fr); 
     gap: 5rem; 
     align-items: center;
-    margin-top: 5rem;
+    
+    margin-bottom: 5rem;
     
 }
 
