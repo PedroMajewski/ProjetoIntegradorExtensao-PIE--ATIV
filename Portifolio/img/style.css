@@ -1,21 +1,30 @@
 body{
-    background-color: rgb(24, 1, 6);
+    background-color: rgb(29, 29, 29);
 }
 
-h1{
-    color: green;
+.neon-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00FF00; /* Verde limão */
+    margin-left: 7rem;
+    text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00; /* Sombras apenas para o brilho interno */
 }
-p{
-    color: green;
-}
+
+ 
+ p{
+    color : white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 7rem;
+ }
+    
 
 
 .portifolio {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 20rem; 
+    gap: 5rem; 
     align-items: center;
-    margin-top: 15rem;
+    margin-top: 5rem;
+    
 }
 
 
@@ -27,7 +36,6 @@ p{
 .div-portifolio:nth-child(6) { grid-column: 3; grid-row: 2; }
 
 
-.div-portifolio img {
-    width: 100%; 
-    height: auto; 
+.portifolio{
+    margin-left: 5rem;
 }
