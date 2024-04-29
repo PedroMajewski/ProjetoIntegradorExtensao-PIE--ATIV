@@ -31,7 +31,7 @@ body{
     grid-template-columns: repeat(3, 1fr); 
     gap: 5rem; 
     align-items: center;
-    
+    margin-left: 5rem;
     margin-bottom: 5rem;
     
 }
@@ -45,6 +45,3 @@ body{
 .div-portifolio:nth-child(6) { grid-column: 3; grid-row: 2; }
 
 
-.portifolio{
-    margin-left: 5rem;
-}
