@@ -18,17 +18,14 @@
 .planos h3{
     display: flex;
     font-size: 1.5rem;
-    position: absolute;
-    margin-top: 3rem;
     text-align: center;
-    padding-left: 1.5rem;
 }
 .planos .text{
     display: flex;
     text-align: left;
     padding-top: 1rem;
     padding-left: 1.5rem;
-    position: absolute;
+    
     font-size: 1rem;
     margin-top: 3.5rem;
     margin-right: 0;
@@ -66,9 +63,9 @@
     border-color: #00C65E;
     border-radius: 1rem;
     border-width: 0.125rem;
-    height: 2.5rem;
+    height: 3rem;
     width: 9rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-style: italic;
     font-weight: 600;
     padding: 0;
@@ -138,11 +135,21 @@
     border-radius: 10px;
     margin: 3rem;
     margin-right: 5rem;
+    flex-direction: column;
+    align-items: center;
 }
-.div-planos img{
-    display: flex;
-    border-radius: 15px;
-    background: local;
+.plano1{
+    background-image: url('/Home/Assets/Planos/Rectangle41.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.plano2{
+    background-image: url('/Home/Assets/Planos/Rectangle42.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.plano3{
+    background-image: url('/Home/Assets/Planos/Rectangle43.jpg');
     background-size: cover;
     background-position: center;
 }
