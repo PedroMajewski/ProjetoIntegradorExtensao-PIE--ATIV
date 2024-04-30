@@ -3,7 +3,9 @@
     --cor-fundo:#101010;
     --cor-claro:#FFF;
 }
+
 .planos{
+    background-color: #101010;
     display: flex;
     flex-direction: column;
     align-items: center;
