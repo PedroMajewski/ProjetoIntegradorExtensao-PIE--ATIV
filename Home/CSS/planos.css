@@ -19,16 +19,13 @@
     display: flex;
     font-size: 1.5rem;
     text-align: center;
+    margin-left: 2rem;
 }
 .planos .text{
     display: flex;
     text-align: left;
-    padding-top: 1rem;
-    padding-left: 1.5rem;
-    
     font-size: 1rem;
-    margin-top: 3.5rem;
-    margin-right: 0;
+    margin-left: 2rem;
 }
 .planos .descricaoPlano1{
     display: flex;
@@ -129,14 +126,14 @@
     color: white;
     display: flex;
     justify-content: left;
-    width: 240px;
+    width: 285px;
     height: 450px;
     border: 0 solid white;
     border-radius: 10px;
     margin: 3rem;
     margin-right: 5rem;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 .plano1{
     background-image: url('/Home/Assets/Planos/Rectangle41.jpg');
