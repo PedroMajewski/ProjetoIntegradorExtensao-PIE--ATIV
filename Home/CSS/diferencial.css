@@ -9,67 +9,100 @@
 .diferencial-div h1{
     color: #fff;
     text-align: center;
-    font-size: 25px;
-    margin-bottom: 1px;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: -1.7rem;
 
 }
 .diferencial-div h2{
     color: #fff;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    padding-top: 1.2rem;
+
 }
 
 .quadrado-principal{
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    gap: 30px;
 }
 .quadrado-principal .quadrado2{
-    width: 12rem;
-    height: 12rem;
+    width: 21rem;
+    height: 13.943rem;
     border-radius: 10px;
     background-color: #333;
-    margin-bottom: 0.625rem;
+    margin-top: -0.75rem;
 }
 .quadrado-principal .quadrado1,
 .quadrado-principal .quadrado3{
-    width: 10rem;
-    height: 10rem;
+    width: 16.813rem;
+    height: 11.161rem;
     border-radius: 10px;
     background-color: #333;
-    margin: 10px;
+    margin: 0.625;
     
 }
 
-.quadrado1::before {
-    display: flex;
-    content: "Yoga"; 
-    color: #fff; 
-    font-size: 1.5rem; 
-    text-align: center; 
-    justify-content: center;
-    margin-top: 5rem;
+.quadrado1{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 10px;
+    margin-bottom: 0.625rem;
+    background-image: url("../Assets/Diferenciais/post352370138_195686840095274_8610905581196524785_n.png");
+    background-size: 100%;    
 }
 
-.quadrado2::before {
-    display: flex;
-    content: "Sippining"; 
-    color: #fff; 
-    font-size: 2.0rem; 
-    text-align: center; 
-    justify-content: center;
-    margin-top: 5rem;
+.quadrado2{
+    width: 15rem;
+    height: 10rem;
+    border-radius: 10px;
+    margin-bottom: 0.625rem;
+    background-image: url("../Assets/Diferenciais/post315060899_593320649150277_3895565291142655322_n.png");
+    background-size: 100%;
+    
 }
 
-.quadrado3::before {
-    display: flex;
-    content: "Circuito"; 
-    color: #fff; 
-    font-size: 1.5rem; 
+.quadrado3{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 10px;
+    margin-bottom: 0.625rem;
+    background-image: url("../Assets/Diferenciais/post296665479_182394100871851_4724770721240709487_n.png");
+    background-size: 100%;
+    
+}
+
+.quadrado1 h3{
+    color: #fff;
     text-align: center;
-    justify-content: center; 
-    margin-top: 5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 4rem;
+    
 }
+
+.quadrado3 h3{
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 4rem;
+}
+
+.quadrado2 h3{
+    color: #fff;
+    text-align: center;
+    font-size: 3.3rem;
+    font-weight: 600;
+    margin-top: 4rem;
+}
+
+
 
 
 
