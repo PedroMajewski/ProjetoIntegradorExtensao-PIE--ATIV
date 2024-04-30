@@ -12,8 +12,8 @@
 .planos h2{
     text-align: center;
     color: white;
-    
     font-weight: 100;
+    margin: 0;
 }
 .planos h3{
     display: flex;
@@ -36,7 +36,7 @@
 .planos .descricaoPlano1{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -7rem;
+    margin-left: -5.9rem;
     margin-top: 5rem;
     text-align: left;
     align-items: center;
@@ -45,7 +45,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 5rem;
-    margin-left: -5.7rem;
+    margin-left: -4.9rem;
 }
 .textimage1 {
     display: flex;
@@ -77,8 +77,8 @@
     color: #fff;
     cursor: pointer;
     transition: .2s;
-    margin-left: 1rem;
-    margin-top: 16rem;
+    margin-left: 1.08rem;
+    margin-top: 19rem;
 }
 .text button:hover{
     background-color: var(--cor-principal);
@@ -132,16 +132,16 @@
     color: white;
     display: flex;
     justify-content: left;
-    
     width: 240px;
-    height: 400px;
+    height: 450px;
     border: 0 solid white;
     border-radius: 10px;
     margin: 3rem;
+    margin-right: 5rem;
 }
 .div-planos img{
     display: flex;
-    border-radius: 10px;
+    border-radius: 15px;
     background: local;
     background-size: cover;
     background-position: center;
