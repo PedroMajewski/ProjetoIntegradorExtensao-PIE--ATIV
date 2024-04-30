@@ -1,6 +1,6 @@
 .diferencial-div{
     background-color: #00C65E;
-    height: 400px;
+    height: 25rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -28,13 +28,13 @@
 .quadrado-principal{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-    gap: 30px;
+    margin-top: 2.5rem;
+    gap: 1.875rem;
 }
 .quadrado-principal .quadrado2{
     width: 21rem;
     height: 13.943rem;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     background-color: #333;
     margin-top: -0.75rem;
 }
@@ -42,25 +42,19 @@
 .quadrado-principal .quadrado3{
     width: 16.813rem;
     height: 11.161rem;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     background-color: #333;
     margin: 0.625;
     
 }
 
 .quadrado1{
-    width: 6rem;
-    height: 6rem;
-    border-radius: 10px;
     margin-bottom: 0.625rem;
     background-image: url("../Assets/Diferenciais/post352370138_195686840095274_8610905581196524785_n.png");
     background-size: 100%;    
 }
 
 .quadrado2{
-    width: 15rem;
-    height: 10rem;
-    border-radius: 10px;
     margin-bottom: 0.625rem;
     background-image: url("../Assets/Diferenciais/post315060899_593320649150277_3895565291142655322_n.png");
     background-size: 100%;
@@ -68,9 +62,6 @@
 }
 
 .quadrado3{
-    width: 8rem;
-    height: 8rem;
-    border-radius: 10px;
     margin-bottom: 0.625rem;
     background-image: url("../Assets/Diferenciais/post296665479_182394100871851_4724770721240709487_n.png");
     background-size: 100%;
@@ -98,11 +89,9 @@
     color: #fff;
     text-align: center;
     font-size: 3.3rem;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 4rem;
 }
-
-
 
 
 
