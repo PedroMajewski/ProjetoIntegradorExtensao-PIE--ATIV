@@ -1,3 +1,8 @@
+:root{
+    --cor-principal:#00C65E;
+    --cor-fundo:#101010;
+    --cor-claro:#FFF;
+}
 .planos{
     display: flex;
     flex-direction: column;
