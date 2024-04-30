@@ -22,7 +22,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 25rem;
+    height: 15rem;
 }
 
 .introducao-horarios h1{
@@ -64,7 +64,7 @@ body{
 }
 
 .introducao-horarios{
-    height: 40rem;
+    height: 35rem;
     text-align: center;
 }
 
