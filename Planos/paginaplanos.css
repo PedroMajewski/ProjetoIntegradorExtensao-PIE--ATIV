@@ -1,0 +1,152 @@
+.planos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40rem;
+}
+.planos h1{
+    color: #00C65E;
+    text-align: center;
+    font-size:2rem
+}
+.planos h2{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    margin: 0;
+}
+.planos h3{
+    display: flex;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 2rem;
+}
+.planos .text{
+    display: flex;
+    text-align: left;
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+.planos .descricaoPlano1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5.9rem;
+    margin-top: 5rem;
+    text-align: left;
+    align-items: center;
+}
+.planos .descricaoPlano2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    margin-left: -4.9rem;
+}
+.textimage1 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: -13.5rem;
+    margin-top: 5.9rem; 
+}
+
+.textimage1 img {
+    width: 0.5rem; 
+    height: 0.5rem; 
+    margin: 0 5px; 
+    padding: 0.35rem;
+}
+.text button{
+    border-style: solid;
+    border-color: #00C65E;
+    border-radius: 1rem;
+    border-width: 0.125rem;
+    height: 3rem;
+    width: 9rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    font-weight: 600;
+    padding: 0;
+    padding-top: 0;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+    margin-left: 1.08rem;
+    margin-top: 19rem;
+}
+.text button:hover{
+    background-color: var(--cor-principal);
+    border-color: var(--cor-principal);
+    transition: .2s;
+    transform: scale(1.1);
+    box-shadow: 0 0 1.2rem var(--cor-principal);
+}
+.textimage2 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: -13.8rem;
+    margin-top: 5.9rem; 
+}
+
+.textimage2 img {
+    width: 0.5rem; 
+    height: 0.5rem; 
+    margin: 0 5px; 
+    padding: 0.35rem;
+}
+.textimage3 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: -13.5rem;
+    margin-top: 5.9rem; 
+}
+
+.textimage3 img {
+    width: 0.5rem; 
+    height: 0.5rem; 
+    margin: 0 5px; 
+    padding: 0.35rem;
+}
+
+
+.planos .preco1, .planos .preco2,
+.planos .preco3{
+    font-size: 1.8rem;
+}
+.div-planos{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+.div-planos .plano1, .div-planos .plano2,
+.div-planos .plano3{
+    color: white;
+    display: flex;
+    justify-content: left;
+    width: 285px;
+    height: 450px;
+    border: 0 solid white;
+    border-radius: 10px;
+    margin: 3rem;
+    margin-right: 5rem;
+    flex-direction: column;
+    align-items: left;
+}
+.plano1{
+    background-image: url('/Home/Assets/Planos/Rectangle41.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.plano2{
+    background-image: url('/Home/Assets/Planos/Rectangle42.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.plano3{
+    background-image: url('/Home/Assets/Planos/Rectangle43.jpg');
+    background-size: cover;
+    background-position: center;
+}
