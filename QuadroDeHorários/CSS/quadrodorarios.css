@@ -1,19 +1,21 @@
 .home-horarios{
     background-color: #101010;
     display: flex;
-    height: 200px;
+    height: 500px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.quadro-horarios h1{
+.text1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-weight: 400;
     font-style: italic;
     color: #fff;
     font-size: 43px;
-    margin-bottom: 2px;
 }
 
 .quadro-horarios h2{
@@ -23,8 +25,8 @@
     color: #fff;
     font-size: 20px;
     filter: opacity(0.5);
-    margin-top: 1px;
     
+
 }
 
 
