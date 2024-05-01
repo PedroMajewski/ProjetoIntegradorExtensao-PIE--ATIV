@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(to top, #00C65E, #005C2F);
 }
 
 .diferencial-div h1{
@@ -50,20 +51,20 @@
 
 .quadrado1{
     margin-bottom: 0.625rem;
-    background-image: url("../Assets/Diferenciais/post352370138_195686840095274_8610905581196524785_n.png");
+    background-image: url("../Assets/img/portifolio/post352370138_195686840095274_8610905581196524785_n.png");
     background-size: 100%;    
 }
 
 .quadrado2{
     margin-bottom: 0.625rem;
-    background-image: url("../Assets/Diferenciais/post315060899_593320649150277_3895565291142655322_n.png");
+    background-image: url("../Assets/img/portifolio/post315060899_593320649150277_3895565291142655322_n.png");
     background-size: 100%;
     
 }
 
 .quadrado3{
     margin-bottom: 0.625rem;
-    background-image: url("../Assets/Diferenciais/post296665479_182394100871851_4724770721240709487_n.png");
+    background-image: url("../Assets/img/portifolio/post296665479_182394100871851_4724770721240709487_n.png");
     background-size: 100%;
     
 }
