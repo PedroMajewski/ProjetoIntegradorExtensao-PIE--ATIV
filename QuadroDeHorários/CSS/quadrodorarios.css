@@ -1,13 +1,13 @@
 .home-horarios{
     background-color: #101010;
     display: flex;
-    height: 500px;
+    height: 31.25rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.text1 h1{
+.quadro-horarios h1{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,7 @@
     font-weight: 400;
     font-style: italic;
     color: #fff;
-    font-size: 43px;
+    font-size: 2.68rem;
 }
 
 .quadro-horarios h2{
@@ -23,10 +23,32 @@
     font-weight: 400;
     font-style: italic;
     color: #fff;
-    font-size: 20px;
+    font-size: 1.25rem;
     filter: opacity(0.5);
-    
-
+    margin-top: -1.875rem;
 }
 
+.tabela-horarios{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.tabela-horarios iframe{
+    max-height: 100%;
+    max-width: 100%;
+    border: none;
+    border-radius: 0.8rem;
+}
+
+.rodape2{
+    background-color: #101010;
+    display: flex;
+    height: 31.25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Assets/post307557099_495456459093766_3543863050462015045_n.png);  
+    background-size: 100%;
+}
 
