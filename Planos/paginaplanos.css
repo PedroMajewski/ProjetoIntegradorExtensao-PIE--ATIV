@@ -146,7 +146,7 @@
     background-image: url('/Home/Assets/Planos/Rectangle41.jpg');
     background-size: cover;
     background-position: center;
-}
+}s
 .plano2{
     background-image: url('/Home/Assets/Planos/Rectangle42.jpg');
     background-size: cover;
@@ -156,4 +156,18 @@
     background-image: url('/Home/Assets/Planos/Rectangle43.jpg');
     background-size: cover;
     background-position: center;
+}
+@media screen and (max-min-width:768px){
+
+    .planos{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-planos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    
 }
