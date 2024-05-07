@@ -12,9 +12,10 @@ body{
     background-image: url('../../Home/Assets/Pag-horarios/fundo-horarios.jpg');
     background-repeat: no-repeat;
     background-position: top;
-    background-size: cover;
+    background-size: contain;
     background-attachment:local;
     background-color: var(--cor-fundo);
+    
 }
 
 .introducao-horarios{

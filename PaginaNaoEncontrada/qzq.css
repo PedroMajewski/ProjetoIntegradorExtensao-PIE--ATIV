@@ -6,22 +6,20 @@ body{
     background-position: top;
     background-size: cover;
     background-attachment:local;
-    background-color: #00C65E;
+    background-color: #101010;
     position: relative;
+    font-family: "Barlow", sans-serif;
 }
 
 .corpo-quatrozeroquatro{
-    position: absolute;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    gap: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: 25rem;
 }
 
 .texto-principal{
-    font-family: "Barlow", sans-serif;
     color: #00C65E;
     font-size: 72px;
     font-weight: 700;
@@ -75,24 +73,21 @@ body{
         background-position: top;
         background-size: 300%;
         background-attachment:local;
-        background-color: #00C65E;
+        background-color: #101010;
         position: relative;
     }
     
     .corpo-quatrozeroquatro{
-        position: absolute;
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
-        gap: 0;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        height: 40rem;
     }
     
     .texto-principal{
         font-family: "Barlow", sans-serif;
         color: #00C65E;
-        font-size: 72px;
         font-weight: 700;
         font-style: italic;
         text-transform: uppercase;
@@ -100,14 +95,14 @@ body{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-align: center;
-        font-size: 46px;
+        font-size: 25px;
     }
     
     .texto-botao{
-        margin-top: -30px;
+        margin-top: 0.3rem;
         font-family: "Inter", sans-serif;
         color: #fff;
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
         font-style: italic;
         font-weight: 200;
@@ -120,7 +115,8 @@ body{
         font-family: "Inter", sans-serif;
         font-weight: bold;
         font-style: italic;
-        font-size: 20px;
+        font-size: 15px;
+        transition: .2s;
     }
     
     .botao:hover{
@@ -145,18 +141,16 @@ body{
         background-position: top;
         background-size: 250%;
         background-attachment:local;
-        background-color: #00C65E;
+        background-color: #101010;
         position: relative;
     }
     
     .corpo-quatrozeroquatro{
-        position: absolute;
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
-        gap: 0;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        height: 45rem;
     }
     
     .texto-principal{
