@@ -4,7 +4,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to top, #00C65E, #005C2F);
+    background-image: linear-gradient(to top, #00C65E, #005C2F), url("../Assets/img/portifolio/ativ.png");
+    background-size: cover;
+    background-position: center; 
 }
 
 .diferencial-div h1{
