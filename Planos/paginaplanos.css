@@ -78,7 +78,7 @@
     color: #fff;
     cursor: pointer;
     transition: .2s;
-    margin-left: 1.08rem;
+    margin-left: 1.9rem;
     margin-top: 19rem;
 }
 .text button:hover{
@@ -143,17 +143,31 @@
     align-items: left;
 }
 .plano1{
-    background-image: url('/Home/Assets/Planos/Rectangle41.jpg');
+    background-image: url('../Home/Assets/Planos/Rectangle41.jpg');
     background-size: cover;
     background-position: center;
 }
 .plano2{
-    background-image: url('/Home/Assets/Planos/Rectangle42.jpg');
+    background-image: url('../Home/Assets/Planos/Rectangle42.jpg');
     background-size: cover;
     background-position: center;
 }
 .plano3{
-    background-image: url('/Home/Assets/Planos/Rectangle43.jpg');
+    background-image: url('../Home/Assets/Planos/Rectangle43.jpg');
     background-size: cover;
     background-position: center;
+}
+@media screen and (max-min-width:768px){
+
+    .planos{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-planos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    
 }
