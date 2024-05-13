@@ -1,0 +1,37 @@
+.carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; 
+}
+
+.carousel-items {
+    display: flex;
+    scroll-snap-type: x mandatory; 
+}
+
+.carouselCard {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 auto;
+    width: 20rem; 
+    height: 18rem;
+
+    scroll-snap-align: start; 
+}
+.carouselCard:nth-child(1){
+    background-image: url('../Home/Assets/Planos/Rectangle41.jpg');
+    background-size: cover;
+}
+.carouselCard:nth-child(2){
+    background-image: url('../Home/Assets/Planos/Rectangle42.jpg');
+    background-size: cover;
+}
+.carouselCard:nth-child(3){
+    background-image: url('../Home/Assets/Planos/Rectangle43.jpg');
+    background-size: cover;
+}
