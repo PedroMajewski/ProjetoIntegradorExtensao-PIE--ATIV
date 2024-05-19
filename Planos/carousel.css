@@ -17,22 +17,25 @@
 
 .carousel-items {
     display: flex;
-    scroll-snap-type: x mandatory; 
+    transition: transform 0.5s ease;
 }
-.carousel-container .carouselCard1{
+
+.carousel-container .carouselCard1 {
     width: 16.813rem;
     height: 11.161rem;
     border-radius: 0.625rem;
     background-color: #333;
     margin: 0.625;
 }
-.carousel-container .carouselCard{
+
+.carousel-container .carouselCard {
     width: 21rem;
     height: 13.943rem;
     border-radius: 0.625rem;
     background-color: #333;
     margin-top: -0.75rem;
 }
+
 .carouselCard {
     display: flex;
     justify-content: center;
@@ -41,34 +44,50 @@
     height: 18rem;
     margin: 2rem;
     scroll-snap-align: start; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
 }
+
+.carouselCard.center {
+    transform: scale(1.2); /* Escala maior para o card central */
+    opacity: 1; /* Opacidade total para o card central */
+}
+
+.carouselCard:not(.center) {
+    transform: scale(0.8); /* Escala menor para os cards laterais */
+    opacity: 0.5; /* Opacidade reduzida para os cards laterais */
+}
+
 .carouselCard1 {
     display: flex;
     justify-content: center;
     flex: 0 0 auto;
     width: 20rem; 
     height: 18rem;
-
     scroll-snap-align: start; 
 }
-.carouselCard1:nth-child(1){
+
+.carouselCard1:nth-child(1) {
     background-image: url('../Home/Assets/Planos/Rectangle41.jpg');
     background-size: cover;
 }
-.carouselCard:nth-child(2){
+
+.carouselCard:nth-child(2) {
     background-image: url('../Home/Assets/Planos/Rectangle42.jpg');
     background-size: cover;
 }
-.carouselCard1:nth-child(3){
+
+.carouselCard1:nth-child(3) {
     background-image: url('../Home/Assets/Planos/Rectangle43.jpg');
     background-size: cover;
 }
-.carousel img{
+
+.carousel img {
     width: 2rem;
     height: 2rem;
     border: none;
 }
-.carousel button{
+
+.carousel button {
     border: none;
     background: none;
 }
