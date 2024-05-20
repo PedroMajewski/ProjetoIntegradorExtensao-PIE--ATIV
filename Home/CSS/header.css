@@ -121,109 +121,6 @@ content: '';
     display: none;
 }
 
-@media screen and (min-max-width:450px) {
-    .header-pc{
-        display: none;
-    }
-
-    .header-mobile{
-        display: flex;
-        justify-content: center;
-    }
-
-    .cabecalho-mobile{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        position: fixed;
-        background-color: var(--cor-fundo);
-        padding: 1rem 3rem;
-        width: 100%;
-    }
-
-
-    .cabecalho-mobile button, .menu-mobile-aberto button{
-        border-style: solid;
-        border-color: #fff;
-        border-radius: 0.3rem;
-        border-width: 0.125rem;
-        padding: 0.6rem 2.5rem;
-        font-size: 0.8rem;
-
-
-        background-color: transparent;
-        color: #fff;
-        cursor: pointer;
-        transition: .2s;
-        margin-left: 1rem;
-        background-color: var(--cor-principal);
-        border-color: var(--cor-principal);
-        transition: .2s;
-        box-shadow: 0 0 1.2rem var(--cor-principal);
-    }
-
-    .menu-mobile-aberto{
-        display: block;
-        background-color: var(--cor-fundo);
-        width: 80%;
-        padding: 2rem 0;
-        position: fixed;
-        height: 100%;
-        transition: .2s;
-        text-align: start;
-    }
-
-    .menu-mobile-aberto li{
-    margin-top: 1.5rem;
-    list-style: none;
-    }
-
-    .menu-mobile-aberto a {
-        color: #ffffff;
-        text-decoration: none;
-        font-size: 0.8rem;
-        font-weight: 500;
-        text-transform: uppercase;
-    }
-
-    .menu-mobile-aberto button{
-        margin-left: 10%;
-    }
-
-    .menu-mobile-aberto img{
-        margin-left: 12%;
-        margin-top: 0.2rem;
-    }
-
-    .icons-menu-mobile{
-        margin-top: 2rem;
-        margin-left: 1rem;
-        width: 100%;
-        margin-bottom: 2rem;
-    }
-
-    .icons-menu-mobile img{
-        margin-left: 1.3rem;
-    }
-    
-    hr{
-        margin-top: 1.5rem;
-        margin-left: 12%;
-        color: #ffffff;
-        text-align: start;
-        width: 50%;
-    }
-
-    .menu-mobile{
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 99;
-        width: 0%;
-        overflow: hidden;
-    }
-
-}
 
 @media screen and (min-width:700px) and (max-width:1100px) {
     .header-mobile{
@@ -392,6 +289,13 @@ content: '';
 }
 
 @media screen and (max-width:700px) {
+
+    body{
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    
     .header-pc{
         display: none;
     }
@@ -412,15 +316,13 @@ content: '';
     }
 
 
-    .cabecalho-mobile button, .menu-mobile-aberto button{
+    .cabecalho-mobile button, .menu-mobile.aberto button{
         border-style: solid;
         border-color: #fff;
         border-radius: 0.3rem;
         border-width: 0.125rem;
         padding: 0.6rem 2.5rem;
         font-size: 0.8rem;
-
-
         background-color: transparent;
         color: #fff;
         cursor: pointer;
@@ -432,7 +334,7 @@ content: '';
         box-shadow: 0 0 1.2rem var(--cor-principal);
     }
 
-    .menu-mobile-aberto{
+    .menu-mobile.aberto{
         display: block;
         background-color: var(--cor-fundo);
         width: 80%;
@@ -441,28 +343,37 @@ content: '';
         height: 100%;
         transition: .2s;
         text-align: start;
+        transition: .5s;
     }
 
-    .menu-mobile-aberto li{
+    .menu-mobile.aberto li{
     margin-top: 1.5rem;
     list-style: none;
     }
 
-    .menu-mobile-aberto a {
+    .menu-mobile.aberto a {
         color: #ffffff;
         text-decoration: none;
         font-size: 0.8rem;
         font-weight: 500;
         text-transform: uppercase;
+        transition: .5s;
     }
 
-    .menu-mobile-aberto button{
+    .menu-mobile.aberto button{
+        margin-top: 1rem;
         margin-left: 10%;
     }
 
-    .menu-mobile-aberto img{
+    .menu-mobile img{
+        scale: 0.8;
+        transition: .5s;
+    }
+    
+    .menu-mobile.aberto img{
         margin-left: 12%;
         margin-top: 0.2rem;
+        transition: scale(1.1) .5s;
     }
 
     .icons-menu-mobile{
@@ -491,6 +402,8 @@ content: '';
         z-index: 99;
         width: 0%;
         overflow: hidden;
+        transition: .5s;
     }
+
 
 }
