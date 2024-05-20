@@ -1,5 +1,6 @@
 .home-horarios{
     background-color: #101010;
+    padding-top: 2rem;
 }
 
 .quadro-horarios h1 {
@@ -10,7 +11,8 @@
     font-weight: 400;
     font-style: italic;
     color: #fff;
-    font-size: 2.68rem;
+    font-size: 2.2rem;
+    margin: 0;
 }
 
 .quadro-horarios h2 {
@@ -20,7 +22,6 @@
     color: #fff;
     font-size: 1.25rem;
     filter: opacity(0.5);
-    margin-top: -1.875rem;
 }
 
 .tabela-horarios {

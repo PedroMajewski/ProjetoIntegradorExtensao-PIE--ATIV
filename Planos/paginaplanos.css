@@ -4,6 +4,19 @@
     --cor-claro:#FFF;
 }
 
+.body-planos{
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow", sans-serif;
+    background-image: url('../Planos/Assets/fundo-planos.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-attachment:local;
+    background-color: var(--cor-fundo);
+}
+
+
 .planos{
     background-color: #101010;
     display: flex;
@@ -12,15 +25,24 @@
     height: 40rem;
 }
 .planos h1{
-    color: #00C65E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    font-size:2rem
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+    font-size: 2.2rem;
+    margin: 0;
+    padding-top: 2rem;
 }
 .planos h2{
     text-align: center;
-    color: white;
-    font-weight: 100;
-    margin: 0;
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+    font-size: 1.25rem;
+    filter: opacity(0.5);
 }
 .planos h3{
     display: flex;
