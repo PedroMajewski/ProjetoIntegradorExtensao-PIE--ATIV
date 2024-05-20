@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" type="image/x-icon" href="Home/Assets/Header/Favicon-ativ.png">
+    <link rel="icon" type="image/x-icon" href="../Home/Assets/Header/Favicon-ativ.png">
 
     <link rel="stylesheet" href="paginaplanos.css">
     <link rel="stylesheet" href="pagplanosmobile.css">
@@ -121,6 +121,9 @@
         </div>
     </section>
     <section class="carousel">
+        <button class="prev" onclick="prevSlide()">
+            <img src="./Assets/Seta_esquerda-transformed.png" alt="Anterior">
+        </button>
         <div class="carousel-container">
             <div class="carousel-items">
                 <div class="carouselCard">Conteúdo do Card 1</div>
@@ -128,6 +131,10 @@
                 <div class="carouselCard">Conteúdo do Card 3</div> 
             </div>
         </div>
+        <button class="next" onclick="nextSlide()">
+            <img src="./Assets/Seta_direita-transformed.png" alt="Proximo">
+        </button>
+        <script src="./carousel.js"></script>
     </section>   
 </main>
 <footer>
