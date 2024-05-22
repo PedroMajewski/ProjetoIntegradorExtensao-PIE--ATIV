@@ -1,12 +1,15 @@
+.diferencial-fundo{
+background: linear-gradient(to top, #00C65E, #005C2F); ;
+}
+
 .diferencial-div{
-    background-color: #00C65E;
     height: 25rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../Assets/img/portifolio/ativ.png"), linear-gradient(to top, #00C65E, #005C2F); 
-    background-size: 210%;
-    background-position: center;  
+    background-image: url("../Assets/img/portifolio/ativ2.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .diferencial-div h1{
