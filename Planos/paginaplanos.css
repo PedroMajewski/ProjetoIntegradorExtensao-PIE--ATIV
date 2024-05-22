@@ -59,7 +59,7 @@
 .planos .descricaoPlano1{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -5.9rem;
+    margin-left: -6.5rem;
     margin-top: 5rem;
     text-align: left;
     align-items: center;
@@ -74,15 +74,15 @@
     display: flex;
     justify-content: left;
     flex-direction: column;
-    margin-left: -13.5rem;
-    margin-top: 5.9rem; 
+    margin-left: -14.099rem;
+    margin-top: 5.8rem; 
 }
 
 .textimage1 img {
     width: 0.5rem; 
     height: 0.5rem; 
     margin: 0 5px; 
-    padding: 0.35rem;
+    padding: 0.32rem;
 }
 .text button{
     border-style: solid;
@@ -99,8 +99,7 @@
     background-color: transparent;
     color: #fff;
     cursor: pointer;
-    transition: .2s;
-    margin-left: 1.9rem;
+    transition: .2s;    
     margin-top: 19rem;
 }
 .text button:hover{
@@ -114,7 +113,7 @@
     display: flex;
     justify-content: left;
     flex-direction: column;
-    margin-left: -13.8rem;
+    margin-left: -15rem;
     margin-top: 5.9rem; 
 }
 

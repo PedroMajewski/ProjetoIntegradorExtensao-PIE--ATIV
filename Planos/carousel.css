@@ -48,13 +48,13 @@
 }
 
 .carouselCard.center {
-    transform: scale(1.2); /* Escala maior para o card central */
-    opacity: 1; /* Opacidade total para o card central */
+    transform: scale(1.2); 
+    opacity: 1; 
 }
 
 .carouselCard:not(.center) {
-    transform: scale(0.8); /* Escala menor para os cards laterais */
-    opacity: 0.5; /* Opacidade reduzida para os cards laterais */
+    transform: scale(0.8); 
+    opacity: 0.5;
 }
 
 .carouselCard1 {
