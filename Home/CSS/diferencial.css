@@ -8,8 +8,8 @@ background: linear-gradient(to top, #00C65E, #005C2F); ;
     justify-content: center;
     align-items: center;
     background-image: url("../Assets/img/portifolio/ativ2.png");
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: top;
 }
 
 .diferencial-div h1{
