@@ -13,6 +13,7 @@
     background-size: 80%;
     background-position: center;
     padding: 2rem;
+    
 }
 
 .principal2 h1 {
@@ -22,7 +23,7 @@
     color: #fff;
     text-align: center;
     margin: 0;
-    font-size: 3rem;
+    font-size: 3rem;  
 }
 .matriculese h1{
     display: flex;
