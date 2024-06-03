@@ -74,3 +74,26 @@ body {
 .resposta{
     font-size: medium;
 }
+
+#Envie{
+    justify-content: center;
+    display: flex;
+    margin-top: 5rem;
+    height: 2rem;
+    gap: 5rem;
+
+}
+
+#duvida-enviar{
+    justify-content: center;
+    display: flex;
+    margin-top: 5rem;
+
+}
+
+#duvida-paragrafo{
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+
+}

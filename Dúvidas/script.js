@@ -3,7 +3,7 @@ function PegarResposta(elemento) {
 
     if (proximoRespostaContainer) {
         proximoRespostaContainer.classList.toggle("aberto");
-    } else {
+    } else {l
         console.error("O próximo elemento .resposta-container não foi encontrado.");
     }
 }
