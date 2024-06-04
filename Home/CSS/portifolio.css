@@ -1,13 +1,23 @@
+:root{
+    --cor-principal:#00C65E;
+    --cor-degradê:#00602E;
+    --cor-fundo:#101010;
+    --cor-claro:#FFF;
+}
 
+.grid-texto{
+    background-color: var(--cor-fundo);
+}
 
+.estrutura-texto{
+    margin-left: 7rem;
+}
 
 .estrutura-texto p{
     color: #fff;
-    width: 40%;
-    text-align: center;
-    font-weight: 600;
-    line-height: 1.6rem;
-   
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
 }
 
 .estrutura-texto h1{
@@ -17,18 +27,18 @@
     text-shadow: 0 0rem 0.5rem var(--cor-principal);
     font-size: 2.2rem;
     font-family: "Barlow", sans-serif;
-     margin-left: 11rem;
-     
-    
-
+    margin: 0;
 }
 
 .portifolio {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 3rem;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 3rem;
     align-items: center;
     justify-content: center; 
+    justify-items: center;
     margin-bottom: 5rem;
 }
 
@@ -40,5 +50,16 @@
     margin-top: 5rem;
 }
 
+@media screen and (max-width:1200px) {
+    .portifolio img{
+        width: 200px;
+        height: 200px;
+    }
+}
 
-
+@media screen and (max-width:700px) {
+    .portifolio img{
+        width: 100px;
+        height: 100px;
+    }
+}
