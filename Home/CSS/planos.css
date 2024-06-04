@@ -139,17 +139,17 @@
     align-items: left;
 }
 .plano1{
-    background-image: url('/Home/Assets/Planos/Rectangle41.jpg');
+    background-image: url('../Assets/Planos/Rectangle41.jpg');
     background-size: cover;
     background-position: center;
 }
 .plano2{
-    background-image: url('/Home/Assets/Planos/Rectangle42.jpg');
+    background-image: url('../Assets/Planos/Rectangle42.jpg');
     background-size: cover;
     background-position: center;
 }
 .plano3{
-    background-image: url('/Home/Assets/Planos/Rectangle43.jpg');
+    background-image: url('../Assets/Planos/Rectangle43.jpg');
     background-size: cover;
     background-position: center;
 }
