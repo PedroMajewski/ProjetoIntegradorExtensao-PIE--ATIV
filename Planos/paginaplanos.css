@@ -4,6 +4,11 @@
     --cor-claro:#FFF;
 }
 
+body{
+    font-family: "Barlow", sans-serif;
+}
+
+
 .body-planos{
     margin: 0;
     padding: 0;

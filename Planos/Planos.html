@@ -14,6 +14,12 @@
     <link rel="stylesheet" href="../Home/CSS/header.css">
     <link rel="stylesheet" href="../Home/CSS/footer.css">
     <link rel="stylesheet" href="/QuadroDeHorários/CSS/introducao-horarios.css">
+
+    <!-- Link da Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body class="body-planos">
     <header>
@@ -119,20 +125,21 @@
         </div>
     </section>
     <section class="carousel">
-        <button class="prev" onclick="prevSlide()">
-            <img src="./Assets/Seta_esquerda-transformed.png" alt="Anterior">
+        <h1>Conheça nossas outras opções!</h1>
+        <div class="carousel-container-global">
+        <button class="prev" onclick="prevSlide()" >
+            <img src="./Assets/seta.svg" alt="Anterior">
         </button>
-        <div class="carousel-container">
-            <div class="carousel-items">
-                <div class="carouselCard">Conteúdo do Card 1</div>
-                <div class="carouselCard">Conteúdo do Card 2</div>
-                <div class="carouselCard">Conteúdo do Card 3</div> 
-            </div>
+        <div class="carousel-container" id="carousel-container">
+                <div class="carouselCard-1" id="carouselCard1"><h2>Semestral</h2><h4>6x R$ 172.50</h4><p>(R$ 1035)</p></div>
+                <div class="carouselCard-2" id="carouselCard2"><h2>Trimestral</h2><h4>3x R$ 184</h4><p>(R$ 552)</p></div>
+                <div class="carouselCard-3" id="carouselCard3"><h2>Anual</h2><h4>12x R$ 149.50</h4><p>(R$ 1794)</p></div> 
         </div>
         <button class="next" onclick="nextSlide()">
-            <img src="./Assets/Seta_direita-transformed.png" alt="Proximo">
+            <img src="./Assets/seta.svg" alt="Proximo">
         </button>
         <script src="./carousel.js"></script>
+    </div>
     </section>   
 </main>
 <footer>
