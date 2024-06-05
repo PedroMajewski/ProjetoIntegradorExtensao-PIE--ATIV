@@ -7,3 +7,5 @@ function PegarResposta(elemento) {
         console.error("O próximo elemento .resposta-container não foi encontrado.");
     }
 }
+
+

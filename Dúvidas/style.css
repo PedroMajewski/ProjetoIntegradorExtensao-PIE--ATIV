@@ -1,3 +1,131 @@
+:root{
+    --cor-principal:#00C65E;
+    --cor-fundo:#101010;
+    --cor-claro:#FFF;
+}
+
+
+
+.header-pc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 1rem;
+    padding: 3rem;
+    background-color: transparent;
+    margin-top: 1rem;
+}
+
+.icons-menu-mobile{
+    display: none;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+
+.header-pc > img{
+    transition: .2s;
+    cursor: pointer;
+}
+
+.header-pc > img:hover{
+    transition: .2s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.navbar-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.navbar-header h3{
+    font-weight: 400;
+    margin: 0rem 1rem;
+    padding: 0.2rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.navbar-header a{
+    margin: 0rem 0.5rem;
+}
+
+.navbar-header img{
+    cursor: pointer;
+    transition: .2s;
+}
+
+.navbar-header img:hover{
+    transition: .2s;
+    transform: scale(1.1);;
+}
+
+.navbar-header h3:after{
+content: '';
+  left: 0;
+  display: flex;
+  width: 100%;
+  border-bottom: 2px solid;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
+  color: var(--cor-principal);
+}
+
+.navbar-header h3:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    box-shadow: 0 0.5rem 1.2rem var(--cor-principal);
+  }
+
+  .navbar-header a{
+    color: var(--cor-claro);
+    text-decoration: none;
+}
+
+
+.navbar-header button{
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 1rem;
+    border-width: 0.125rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    font-weight: 600;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+    margin-left: 1rem;
+}
+
+.navbar-header button:hover{
+    background-color: var(--cor-principal);
+    border-color: var(--cor-principal);
+    transition: .2s;
+    transform: scale(1.1);
+    box-shadow: 0 0 1.2rem var(--cor-principal);
+}
+
+.navbar-header-1100px{
+    display: none;
+}
+
+
+
+
+
+
+
+
 body {
     background-color: black;
     font-size: 16px;
