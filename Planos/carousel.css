@@ -212,6 +212,7 @@
     color: #fff;
     flex-direction: column;
     box-shadow: 0 5px 1rem #00000081;
+    cursor: pointer;
 }
 
 #carouselCard2{
@@ -220,6 +221,7 @@
     color: #fff;
     flex-direction: column;
     box-shadow: 0 5px 1rem #00000081;
+    cursor: pointer;
 }
 
 #carouselCard3{
@@ -228,6 +230,7 @@
     color: #fff;
     flex-direction: column;
     box-shadow: 0 5px 1rem #00000081;
+    cursor: pointer;
 }
 
 .carousel-container h2{

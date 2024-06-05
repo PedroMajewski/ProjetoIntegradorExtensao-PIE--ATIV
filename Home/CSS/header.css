@@ -326,24 +326,23 @@ content: '';
         background-color: transparent;
         color: #fff;
         cursor: pointer;
-        transition: .2s;
         margin-left: 1rem;
         background-color: var(--cor-principal);
         border-color: var(--cor-principal);
-        transition: .2s;
         box-shadow: 0 0 1.2rem var(--cor-principal);
     }
 
     .menu-mobile.aberto{
-        display: block;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
         background-color: var(--cor-fundo);
         width: 80%;
         padding: 2rem 0;
         position: fixed;
         height: 100%;
-        transition: .2s;
         text-align: start;
-        transition: .5s;
+        transition: .4s;
     }
 
     .menu-mobile.aberto li{
@@ -397,12 +396,9 @@ content: '';
 
     .menu-mobile{
         position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 99;
         width: 0%;
         overflow: hidden;
-        transition: .5s;
+        transition: .4s;
     }
 
 
