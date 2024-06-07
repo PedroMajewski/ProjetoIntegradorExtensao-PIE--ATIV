@@ -1,3 +1,10 @@
+:root{
+    --cor-principal:#00C65E;
+    --cor-degradê:#00602E;
+    --cor-fundo:#101010;
+    --cor-claro:#FFF;
+}
+
 .home-horarios{
     background-color: #101010;
     padding-top: 2rem;
@@ -22,12 +29,13 @@
     color: #fff;
     text-align: center;
     margin: 0;
-    font-size: 3rem;  
+    font-size: 2.5rem;  
 }
 
 .principal2 h1 strong {
-    color: green;
+    color: var(--cor-principal);
     text-transform: uppercase;
+    text-shadow: 0 0 1rem var(--cor-principal);
 }
 
 .matriculese button {
@@ -35,19 +43,17 @@
     color: #fff;
     text-align: center;
     margin: 0;
-    position: relative;
-    padding: 1rem 2rem;
-    border: 2px solid green; 
-    border-radius: 5%; 
+    padding: 0.8rem 2rem;
+    border: 2px solid var(--cor-principal); 
+    border-radius: 8px; 
     background-color: transparent; 
-    box-shadow: 0 0 10px 2px green;
     font-weight: 300;
     transition: .2s;
     font-size:medium ;
 }
 
 .matriculese button:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: .2s;
 } 
 

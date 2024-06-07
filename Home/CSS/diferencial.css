@@ -104,6 +104,86 @@ background: linear-gradient(to top, #00C65E, #005C2F); ;
     font-weight: 500;
 }
 
+@media screen and (max-width:450px) {
+    .quadrado1 h3{
+        color: #fff;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    
+    .quadrado3 h3{
+        color: #fff;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    
+    .quadrado2 h3{
+        color: #fff;
+        text-align: center;
+        font-size: 2.2rem;
+        font-weight: 400;
+    }
+    
+    .diferencial-div{
+    height: 20rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Assets/img/portifolio/ativ2.png");
+    background-size: contain;
+    background-position: top;
+    }
+    
 
+    .quadrado-principal{
+        display: flex;
+        justify-content: center;
+        margin-top: 2.5rem;
+        gap: 0.5rem;
+    }
+    .quadrado-principal .quadrado2{
+        width: 21rem;
+        height: 8rem;
+        border-radius: 0.625rem;
+        background-color: #333;
+        margin-top: -0.75rem;
+        
+    }
+    .quadrado-principal .quadrado1,
+    .quadrado-principal .quadrado3{
+        width: 16.813rem;
+        height: 6rem;
+        border-radius: 0.625rem;
+        background-color: #333;
+        margin: 0.625;
+        
+    }
 
-
+    .quadrado1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../Assets/img/portifolio/img1.png");
+        background-size: 100%;    
+    }
+    
+    .quadrado2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../Assets/img/portifolio/img2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .quadrado3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../Assets/img/portifolio/img3.png");
+        background-size: 100%;
+        
+    }
+}
