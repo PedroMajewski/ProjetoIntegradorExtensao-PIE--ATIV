@@ -14,6 +14,12 @@ function carouselMobile() {
         container.addEventListener('touchmove', handleTouchMove, false);
         container.addEventListener('touchend', handleTouchEnd, false);
 
+        dots.forEach((dot, i) => {
+            dot.addEventListener('click', () => {
+                goToSlide(i); 
+            });//Evento de clique em cada DOT :)
+        });
+
         function handleTouchStart(event) {
             startX = event.touches[0].clientX;
             container.style.transition = 'none';
