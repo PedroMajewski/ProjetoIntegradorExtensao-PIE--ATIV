@@ -65,9 +65,11 @@
 }
 
 @media screen and (max-width:450px) {
+
+
     .portifolio img{
-        width: 150px;
-        height: 150px;
+        width: 380px;
+        height: 380px;
     }
 
     .portifolio {
@@ -102,6 +104,27 @@
     }
 
     .estrutura-texto{
-        margin-left: 0
+        margin-left: 0;
+        margin-top: 2rem;
     }
+
+    /* Slick Track */
+
+
+    .slick-track{
+        height: 100%;
+    }
+
+    .slick-slide img{
+        padding: 1rem;
+    }
+
+    .slick-prev:before{
+        display: none;
+    }
+
+    .slick-next:before{
+        display: none;
+    }
+
 }
