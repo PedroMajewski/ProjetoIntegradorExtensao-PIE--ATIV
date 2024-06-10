@@ -1,7 +1,7 @@
 const centro = document.getElementById("plano-2");
 const esquerda = document.getElementById("plano-1");
 const direita = document.getElementById("plano-3");
-const elementos = document.querySelectorAll("[class^='plano-']");
+const elementos = document.querySelectorAll(".plano");
 const container = document.getElementById("div-planosID");
 
 let startX;
@@ -31,58 +31,58 @@ function handleTouchEnd(event) {
 
 function prevSlide() {
     // Centro
-    if (centro.classList.contains("plano-2")) {
-        centro.className = "plano-1";
-    } else if (centro.classList.contains("plano-1")) {
-        centro.className = "plano-3";
-    } else if (centro.classList.contains("plano-3")) {
-        centro.className = "plano-2";
+    if (centro.classList.contains("plano2")) {
+        centro.className = "plano1";
+    } else if (centro.classList.contains("plano1")) {
+        centro.className = "plano3";
+    } else if (centro.classList.contains("plano3")) {
+        centro.className = "plano2";
     }
 
     // Esquerda
-    if (esquerda.classList.contains("plano-2")) {
-        esquerda.className = "plano-1";
-    } else if (esquerda.classList.contains("plano-1")) {
-        esquerda.className = "plano-3";
-    } else if (esquerda.classList.contains("plano-3")) {
-        esquerda.className = "plano-2";
+    if (esquerda.classList.contains("plano2")) {
+        esquerda.className = "plano1";
+    } else if (esquerda.classList.contains("plano1")) {
+        esquerda.className = "plano3";
+    } else if (esquerda.classList.contains("plano3")) {
+        esquerda.className = "plano2";
     }
 
     // Direita
-    if (direita.classList.contains("plano-2")) {
-        direita.className = "plano-1";
-    } else if (direita.classList.contains("plano-1")) {
-        direita.className = "plano-3";
-    } else if (direita.classList.contains("plano-3")) {
-        direita.className = "plano-2";
+    if (direita.classList.contains("plano2")) {
+        direita.className = "plano1";
+    } else if (direita.classList.contains("plano1")) {
+        direita.className = "plano3";
+    } else if (direita.classList.contains("plano3")) {
+        direita.className = "plano2";
     }
 }
 
 function nextSlide() {
     // Centro
-    if (centro.classList.contains("plano-2")) {
-        centro.className = "plano-3";
-    } else if (centro.classList.contains("plano-3")) {
-        centro.className = "plano-1";
-    } else if (centro.classList.contains("plano-1")) {
-        centro.className = "plano-2";
+    if (centro.classList.contains("plano2")) {
+        centro.className = "plano3";
+    } else if (centro.classList.contains("plano3")) {
+        centro.className = "plano1";
+    } else if (centro.classList.contains("plano1")) {
+        centro.className = "plano2";
     }
 
     // Esquerda
-    if (esquerda.classList.contains("plano-2")) {
-        esquerda.className = "plano-3";
-    } else if (esquerda.classList.contains("plano-3")) {
-        esquerda.className = "plano-1";
-    } else if (esquerda.classList.contains("plano-1")) {
-        esquerda.className = "plano-2";
+    if (esquerda.classList.contains("plano2")) {
+        esquerda.className = "plano3";
+    } else if (esquerda.classList.contains("plano3")) {
+        esquerda.className = "plano1";
+    } else if (esquerda.classList.contains("plano1")) {
+        esquerda.className = "plano2";
     }
 
     // Direita
-    if (direita.classList.contains("plano-2")) {
-        direita.className = "plano-3";
-    } else if (direita.classList.contains("plano-3")) {
-        direita.className = "plano-1";
-    } else if (direita.classList.contains("plano-1")) {
-        direita.className = "plano-2";
+    if (direita.classList.contains("plano2")) {
+        direita.className = "plano3";
+    } else if (direita.classList.contains("plano3")) {
+        direita.className = "plano1";
+    } else if (direita.classList.contains("plano1")) {
+        direita.className = "plano2";
     }
 }

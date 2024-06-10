@@ -153,7 +153,7 @@
     background-size: cover;
     background-position: center;
 }
-@media screen and (max-width:700px){
+@media screen and (max-width: 700px) {
     .planos {
         flex-direction: column;
         align-items: center;
@@ -164,16 +164,18 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
-        overflow-x: auto;
+        justify-content: flex-start;
+        overflow-x: hidden; 
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
         width: 100%;
+        position: relative; 
     }
 
     .div-planos .plano1, .div-planos .plano2, .div-planos .plano3 {
-        flex: 0 0 auto;
+        flex: 0 0 80%; 
         scroll-snap-align: center;
-        margin: 1rem;
+        transition: transform 0.5s ease-in-out;
+        box-sizing: border-box;
     }
 }
