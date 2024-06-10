@@ -46,6 +46,12 @@
     flex: 0 0 calc(33.33% - 5rem);
 }
 
+.slick-next .slick-arrow
+{
+    display: none;
+    right: 0px;
+}
+
 .div-portifolio:nth-child(n+4) {
     margin-top: 5rem;
 }
@@ -108,25 +114,6 @@
         margin-top: 2rem;
     }
 
-    /* Slick Track */
-
-
-    .slick-track{
-        height: 100%;
-    }
-
-    .slick-slide img{
-        padding: 1rem;
-    }
-
-    .slick-prev:before{
-        display: none;
-    }
-
-    .slick-next:before{
-        display: none;
-    }
-
 }
 
 @media screen and (max-width:360px) {
@@ -135,4 +122,5 @@
         height: 320px;
     }
 
+    
 }
