@@ -128,3 +128,11 @@
     }
 
 }
+
+@media screen and (max-width:450px) {
+    .portifolio img{
+        width: 340px;
+        height: 320px;
+    }
+
+}
