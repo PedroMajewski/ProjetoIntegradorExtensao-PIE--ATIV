@@ -20,6 +20,10 @@ function carouselMobile() {
             });//Evento de clique em cada DOT :)
         });
 
+        container.addEventListener('touchstart', function(event) {
+            event.stopPropagation();
+        });
+
         function handleTouchStart(event) {
             startX = event.touches[0].clientX;
             container.style.transition = 'none';
