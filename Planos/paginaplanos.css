@@ -6,48 +6,29 @@
 
 body{
     font-family: "Barlow", sans-serif;
-}
-
-
-.body-planos{
-    margin: 0;
-    padding: 0;
-    font-family: "Barlow", sans-serif;
-    background-image: url('../Planos/Assets/fundo-planos.jpg');
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100%;
-    background-attachment:local;
-    background-color: var(--cor-fundo);
+    background-color: #101010;
 }
 
 
 .planos{
-    background-color: #101010;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 40rem;
 }
 .planos h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: 400;
+    color: var(--cor-principal);
+    font-weight: 500;
     font-style: italic;
-    color: #fff;
+    text-shadow: 0 0rem 0.5rem var(--cor-principal);
     font-size: 2.2rem;
-    margin: 0;
-    padding-top: 2rem;
+    font-family: "Barlow", sans-serif;
 }
 .planos h2{
     text-align: center;
-    font-weight: 400;
-    font-style: italic;
-    color: #fff;
-    font-size: 1.25rem;
-    filter: opacity(0.5);
+    color: white;
+    font-weight: 100;
+    margin: 0;
 }
 .planos h3{
     display: flex;
@@ -64,7 +45,7 @@ body{
 .planos .descricaoPlano1{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -6rem;
+    margin-left: -5.9rem;
     margin-top: 5rem;
     text-align: left;
     align-items: center;
@@ -73,21 +54,21 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin-top: 5rem;
-    margin-left: -4.8rem;
+    margin-left: -4.9rem;
 }
 .textimage1 {
     display: flex;
     justify-content: left;
     flex-direction: column;
     margin-left: -13.5rem;
-    margin-top: 6rem; 
+    margin-top: 5.9rem; 
 }
 
 .textimage1 img {
     width: 0.5rem; 
     height: 0.5rem; 
     margin: 0 5px; 
-    padding: 0.34rem;
+    padding: 0.35rem;
 }
 .text button{
     border-style: solid;
@@ -104,9 +85,9 @@ body{
     background-color: transparent;
     color: #fff;
     cursor: pointer;
-    transition: .2s;    
+    transition: .2s;
+    margin-left: 1.08rem;
     margin-top: 19rem;
-    margin-left: 1rem;
 }
 .text button:hover{
     background-color: var(--cor-principal);
@@ -120,20 +101,20 @@ body{
     justify-content: left;
     flex-direction: column;
     margin-left: -13.8rem;
-    margin-top: 6rem; 
+    margin-top: 5.9rem; 
 }
 
 .textimage2 img {
     width: 0.5rem; 
     height: 0.5rem; 
     margin: 0 5px; 
-    padding: 0.34rem;
+    padding: 0.35rem;
 }
 .textimage3 {
     display: flex;
     justify-content: left;
     flex-direction: column;
-    margin-left: -13.4rem;
+    margin-left: -13.5rem;
     margin-top: 5.9rem; 
 }
 
@@ -162,47 +143,27 @@ body{
     justify-content: left;
     width: 285px;
     height: 450px;
-    border: 0 solid white;
+    border: 2px solid rgb(44, 44, 44);
     border-radius: 10px;
     margin: 3rem;
-    margin-right: 5rem;
-    margin-left: 5rem;
+    margin-right: 3rem;
     flex-direction: column;
     align-items: left;
 }
 .plano1{
-    background-image: url('../Home/Assets/Planos/Rectangle41.jpg');
+    background-image: url('./Assets/Rectangle41.jpg');
     background-size: cover;
     background-position: center;
 }
 .plano2{
-    background-image: url('../Home/Assets/Planos/Rectangle42.jpg');
+    background-image: url('./Assets/Rectangle42.jpg');
     background-size: cover;
     background-position: center;
 }
 .plano3{
-    background-image: url('../Home/Assets/Planos/Rectangle43.jpg');
+    background-image: url('./Assets/Rectangle43.jpg');
     background-size: cover;
     background-position: center;
-}
-
-
-@media screen and (min-width:451px) and (max-width:1100px) {
-    .body-planos{
-        background-repeat: no-repeat;
-        background-position: top;
-        background-size:250%;
-        background-attachment:local;
-    }
-}
-
-@media screen and (max-width:450px) {
-    .body-planos{
-        background-repeat: no-repeat;
-        background-position: top;
-        background-size:250%;
-        background-attachment:local;
-    }
 }
 @media screen and (max-width: 700px) {
     .planos {
@@ -211,6 +172,7 @@ body{
         align-items: center;
         height: auto;
     }
+    
 
     .div-planos {
         display: flex;
@@ -218,7 +180,7 @@ body{
         align-items: center;
         justify-content: center; 
         overflow: hidden; 
-        width: 100%;
+        width: 85%;
         position: relative;
         touch-action: pan-y pan-x;
     }
@@ -252,4 +214,8 @@ body{
         background-color: #00C65E;
     }
 }
+
+
+
+
 
