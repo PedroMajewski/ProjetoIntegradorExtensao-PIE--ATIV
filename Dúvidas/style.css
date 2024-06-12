@@ -7,10 +7,6 @@
 
 body {
     background-color: var(--cor-fundo);
-    background-image: linear-gradient(#0000008b,#0000008b), url('img/background.jpg');
-    background-size: 100%; 
-    background-position: top; 
-    background-repeat: no-repeat; 
     margin: 0;
     padding: 0;
     font-family: "Barlow", sans-serif;
@@ -44,15 +40,6 @@ body {
     color: #fff;
 }
 
-.header-pc {
-    display: none;
-}
-
-.icons-menu-mobile, .menu-mobile {
-    display: block;
-}
-
-
 .Duvida {
     display: flex;
     justify-content: center;
@@ -69,7 +56,7 @@ body {
 
 .linha-verde {
     flex-grow: 1;
-    height: 0.5rem; 
+    height: 0.3rem; 
     background-color: #00C65E;
     margin: 0.5rem 0; 
 }
@@ -80,7 +67,7 @@ body {
 }
 
 .arrow-img {
-    width: 2rem; 
+    width: 1.5rem; 
     height: auto;
     margin-left: 1rem; 
 }
@@ -99,23 +86,25 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     height: auto;
-    transition: .3s;
+    transition: .5s;
 }
 
 .resposta-container.aberto {
     display: block;
-    transition: .3s;
+    transition: .5s;
 }
 
 .resposta {
     margin: 0.5rem 0; 
     font-size: 1.25rem; 
+     transition: .3s;
 }
 
 .linha-duvida {
     display: flex;
     align-items: center;
     cursor: pointer; 
+    transition: .3s;
 }
 
 .linha-verde-container {
@@ -126,7 +115,23 @@ body {
     transition: .3s;
 }
 
+.duvidas-frequentes-titulo h1{
+    color: var(--cor-principal);
+    font-weight: 500;
+    font-style: italic;
+    text-shadow: 0 0rem 0.5rem var(--cor-principal);
+    font-size: 2.2rem;
+    font-family: "Barlow", sans-serif;
+}
 
+.duvidas-frequentes-titulo h2{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    margin: 0;
+    font-size: 1.5rem;
+    
+}
 
 
 #Envie {
@@ -150,18 +155,38 @@ body {
     justify-content: center;
     display: flex;
     margin-top: 5rem;
+    transition: .3s;
 }
 
 #duvida-paragrafo {
     justify-content: center;
     display: flex;
     font-size: 2rem;
+    transition: .3s;
 }
 
 @media screen and (max-width:450px) {
-    body {
+    .body-duvidas {
         background-color: var(--cor-fundo);
         background-image: linear-gradient(#0000008b,#0000008b), url('img/background.jpg');
-        background-size: 400%
+        background-size: 300%;
+        background-position: top left 35% 35%;
+    }
+
+    .duvidas-frequentes-titulo h1{
+        color: var(--cor-principal);
+        font-weight: 500;
+        font-style: italic;
+        text-shadow: 0 0rem 0.5rem var(--cor-principal);
+        font-size: 2.2rem;
+        font-family: "Barlow", sans-serif;
+    }
+    
+    .duvidas-frequentes-titulo h2{
+        text-align: center;
+        color: white;
+        font-weight: 100;
+        margin: 0;
+        font-size: 1.5rem;
     }
 }

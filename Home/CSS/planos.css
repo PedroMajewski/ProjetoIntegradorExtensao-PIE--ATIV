@@ -137,6 +137,7 @@
     margin-right: 3rem;
     flex-direction: column;
     align-items: left;
+    transition: .3s;
 }
 .plano1{
     background-image: url('../Assets/Planos/Rectangle41.jpg');
