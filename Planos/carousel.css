@@ -128,13 +128,13 @@
 
 .prev{
     position: absolute;
-    left: 10%;
+    left: 8%;
     transition: .2s;
 }
 
 .next{
     position: absolute;
-    left: 90%;
+    left: 87%;
     transform: .2s;
 }
 
@@ -173,7 +173,6 @@
     left: 20%;
     transition: .4s;
     opacity: 80%;
-    z-index: 1;
 }
 
 .carouselCard-2{
@@ -186,9 +185,8 @@
     margin: 2rem;
     transform: scale(1.2);
     position: absolute;
-    left: 42.5%;
+    left: 41%;
     transition: .4s;
-    z-index: 99;
 }
 
 .carouselCard-3{
@@ -200,10 +198,9 @@
     border-radius: 0.625rem;
     margin: 2rem;
     position: absolute;
-    left: 65%;
+    left: 62%;
     transition: .4s;
     opacity: 80%;
-    z-index: 1;
 }
 
 #carouselCard1{
@@ -255,3 +252,165 @@
     font-weight: 300;
     color: #ffffffd8;
 }
+
+@media screen and (min-width: 1100px) and (max-width: 1600px) {
+    .prev{
+        position: absolute;
+        left: 5%;
+        transition: .2s;
+    }
+    
+    .next{
+        position: absolute;
+        left: 92%;
+        transform: .2s;
+    }
+    
+    .next:hover{
+        transform: scale(1.2);
+        transition: .2s;
+    }
+    
+    .prev:hover{
+        transform: scale(1.2);
+        transition: .2s;
+    }
+    
+    .carousel .prev img {
+        width: 2rem;
+        height: 2rem;
+        border: none;
+    }
+    
+    .carousel .next img {
+        width: 2rem;
+        height: 2rem;
+        border: none;
+        transform: rotate(180deg);
+    }
+    
+    .carouselCard-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16.8rem;
+        height: 11.1rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        position: absolute;
+        left: 10%;
+        transition: .4s;
+        opacity: 80%;
+    }
+    
+    .carouselCard-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16.8rem;
+        height: 11.1rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        transform: scale(1.2);
+        position: absolute;
+        left: 37%;
+        transition: .4s;
+    }
+    
+    .carouselCard-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16.8rem;
+        height: 11.1rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        position: absolute;
+        left: 64%;
+        transition: .4s;
+        opacity: 80%;
+    }   
+}
+
+@media screen and (min-width: 700px) and (max-width: 100px) {
+    .prev{
+        position: absolute;
+        left: 5%;
+        transition: .2s;
+    }
+    
+    .next{
+        position: absolute;
+        left: 92%;
+        transform: .2s;
+    }
+    
+    .next:hover{
+        transform: scale(1.2);
+        transition: .2s;
+    }
+    
+    .prev:hover{
+        transform: scale(1.2);
+        transition: .2s;
+    }
+    
+    .carousel .prev img {
+        width: 2rem;
+        height: 2rem;
+        border: none;
+    }
+    
+    .carousel .next img {
+        width: 2rem;
+        height: 2rem;
+        border: none;
+        transform: rotate(180deg);
+    }
+    
+    .carouselCard-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8.4rem;
+        height: 5.5rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        position: absolute;
+        left: 10%;
+        transition: .4s;
+        opacity: 80%;
+    }
+    
+    .carouselCard-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8.4rem;
+        height: 5.5rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        transform: scale(1.2);
+        position: absolute;
+        left: 37%;
+        transition: .4s;
+    }
+    
+    .carouselCard-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8.4rem;
+        height: 5.5rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        position: absolute;
+        left: 64%;
+        transition: .4s;
+        opacity: 80%;
+    }
+ }
+
+ @media screen and (max-width:450px) {
+    
+ }
