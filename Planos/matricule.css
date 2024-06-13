@@ -1,0 +1,219 @@
+:root{
+    --cor-principal:#00C65E;
+    --cor-degradê:#00602E;
+    --cor-fundo:#101010;
+    --cor-claro:#FFF;
+}
+
+.divfather{
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.semirodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17rem;
+    width: 100%;
+    background-image: url(../Home/Assets/SemiRodapeAsset.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.semirodape h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: "Barlow", sans-serif;
+    text-align: center;
+}
+
+.semirodape h1 strong{
+    color: var(--cor-principal);
+    text-transform: uppercase;
+    text-shadow: 0 0 1rem var(--cor-principal);
+}
+
+.semirodape h3{
+    font-family: "Barlow", sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+.matriculaai{
+    display: flex;
+    align-items: center;
+}
+
+.matriculaai button{
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0.8rem 2rem;
+    border: 2px solid var(--cor-principal); 
+    border-radius: 8px; 
+    background-color: transparent; 
+    font-weight: 300;
+    transition: .2s;
+    font-size:medium;
+}
+
+.matriculaai button:hover{
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+@media screen and (max-width:450px) {
+
+    .divfather{
+        display: flex;
+        flex-direction: column;
+        flex: auto;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .semirodape{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 17rem;
+        width: 100%;
+        background-image: url(../Home/Assets/SemiRodapeAsset.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .semirodape h1{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0;
+        color: #fff;
+        font-size: 2.3rem;
+        font-family: "Barlow", sans-serif;
+        text-align: center;
+    }
+    
+    .semirodape h1 strong{
+        color: var(--cor-principal);
+        text-transform: uppercase;
+        text-shadow: 0 0 1rem var(--cor-principal);
+    }
+    
+    .semirodape h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Barlow", sans-serif;
+        color: #fff;
+        margin: 0;
+    }
+    
+    .matriculaai{
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    .matriculaai button{
+        cursor: pointer;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        padding: 0.8rem 2rem;
+        border: 2px solid var(--cor-principal); 
+        border-radius: 8px; 
+        background-color: transparent; 
+        font-weight: 300;
+        transition: .2s;
+        font-size:medium;
+    }
+    
+    .matriculaai button:hover{
+        transform: scale(1.1);
+        transition: .2s;
+    }
+        
+}
+
+@media screen and (min-width:451px) and (max-width:1100px) {
+
+    .divfather{
+        display: flex;
+        flex-direction: column;
+        flex: auto;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .semirodape{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 17rem;
+        width: 100%;
+        background-image: url(../Home/Assets/SemiRodapeAsset.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .semirodape h1{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0;
+        color: #fff;
+        font-size: 2.3rem;
+        font-family: "Barlow", sans-serif;
+        text-align: center;
+    }
+    
+    .semirodape h1 strong{
+        color: var(--cor-principal);
+        text-transform: uppercase;
+        text-shadow: 0 0 1rem var(--cor-principal);
+    }
+    
+    .semirodape h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Barlow", sans-serif;
+        color: #fff;
+        margin: 0;
+    }
+    
+    .matriculaai{
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    .matriculaai button{
+        cursor: pointer;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        padding: 0.8rem 2rem;
+        border: 2px solid var(--cor-principal); 
+        border-radius: 8px; 
+        background-color: transparent; 
+        font-weight: 300;
+        transition: .2s;
+        font-size:medium;
+    }
+    
+    .matriculaai button:hover{
+        transform: scale(1.1);
+        transition: .2s;
+    }
+    
+}
