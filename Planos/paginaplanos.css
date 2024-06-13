@@ -9,6 +9,15 @@ body{
     background-color: #101010;
 }
 
+.body-planos{
+    background-image: url("../Planos/Assets/fundo-planos.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-attachment: local;
+    background-color: var(--cor-fundo)
+}
+
 .planos{
     display: flex;
     flex-direction: column;
