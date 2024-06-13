@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./CSS/quadrodorarios.css">
     <!--CSS Diferencial-->
     <link rel="stylesheet" href="./CSS/dife.css">
+    <!--CSS COROSEL-->
+    <link rel="stylesheet" href="./CSS/corosel.css">
 
     <link rel="icon" type="image/x-icon" href="../Home/Assets/Header/Favicon-ativ.png">
     <title>Quadro de Horários - ATIV</title>
@@ -89,20 +91,32 @@
                 <div class="diferencial-div">
                     <h2>Nossos</h2>
                     <h1>Diferenciais</h1>
-                    <div class="quadrado-principal">
-                        <div class="quadrado3">
-                            <h3>Circuito</h3>
+                    </div>
+                </div>
+                <div class="carosel">
+                    <div class="carosel-container-global">
+                        <button class="prev" onclick="prevSlide()">
+                            <img src="../Planos/Assets/Seta_esquerda-transformed.png" alt="Anterior">
+                        </button>
+                        <div class="carosel-container" id="carosel-container">
+                            <div class="caroselCard-1" id="caroselCard1">
+                                <h2>Spinning</h2>
+                            </div>
+                            <div class="caroselCard-2" id="caroselCard2">
+                                <h2>Circuito</h2>
+                            </div>
+                            <div class="caroselCard-3" id="caroselCard3">
+                                <h2>Yoga</h2>
+                            </div>
                         </div>
-                        <div class="quadrado2">
-                            <h3>Yoga</h3>
-                        </div>
-                        <div class="quadrado1">
-                            <h3>Spinning</h3>
-                        </div>
-        
+                        <button class="next" onclick="nextSlide()">
+                            <img src="../Planos/Assets/Seta_esquerda-transformed.png" alt="Proximo">
+                        </button>
+                        <script src="./carosel.js"></script>
                     </div>
                 </div>
                 </section>  
+          
             <section class="rodape2">
                 <div class="principal2">
                     <h1>"Você é mais&nbsp; <strong>FORTE</strong>&nbsp; do que pensa!"</h1>

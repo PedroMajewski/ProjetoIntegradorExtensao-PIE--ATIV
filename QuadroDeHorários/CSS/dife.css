@@ -54,55 +54,8 @@
         
     }
     
-    .quadrado1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 0.625rem;
-        background-image: url("../Assets/post296665479_182394100871851_4724770721240709487_n.png");
-        background-size: 100%;    
-    }
+
     
-    .quadrado2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 0.625rem;
-        background-image: url("../Assets/post315060899_593320649150277_3895565291142655322_n.png");
-        background-size: 100%;
-        
-    }
-    
-    .quadrado3{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 0.625rem;
-        background-image: url("../Assets/post352370138_195686840095274_8610905581196524785_n.png");
-        background-size: 100%;
-        
-    }
-    
-    .quadrado1 h3{
-        color: #fff;
-        text-align: center;
-        font-size: 1.5rem;
-        font-weight: 500;
-    }
-    
-    .quadrado3 h3{
-        color: #fff;
-        text-align: center;
-        font-size: 1.5rem;
-        font-weight: 500;
-    }
-    
-    .quadrado2 h3{
-        color: #fff;
-        text-align: center;
-        font-size: 3.3rem;
-        font-weight: 500;
-    }
     
     
     
