@@ -183,6 +183,20 @@ body{
         position: relative;
         touch-action: pan-y pan-x;
     }
+    .div-planos .plano1, .div-planos .plano2, 
+    .div-planos .plano3{
+        height: 36rem;
+        
+    }
+    .text button{
+        height: 4rem;
+        width: 10rem;
+        margin-left: 0.8rem;
+        margin-top: 23rem;
+    }
+    .planos .descricaoPlano2{
+        font-size: 1.3rem;
+    }
 
     .div-planos > div {
         flex: 0 0 75%; 
