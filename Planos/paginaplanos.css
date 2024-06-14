@@ -55,11 +55,11 @@ body{
 .planos .descricaoPlano1{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -5.9rem;
-    margin-top: 7rem;
+    margin-left: -6rem;
+    margin-top: 5rem;
     text-align: left;
     align-items: center;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 .planos .descricaoPlano2{
     display: flex;
@@ -71,7 +71,7 @@ body{
     display: flex;
     justify-content: left;
     flex-direction: column;
-    margin-left: -13.5rem;
+    margin-left: -13.4rem;
     margin-top: 5.9rem; 
 }
 
@@ -125,7 +125,7 @@ body{
     display: flex;
     justify-content: left;
     flex-direction: column;
-    margin-left: -13.5rem;
+    margin-left: -13.4rem;
     margin-top: 5.9rem; 
 }
 
@@ -184,10 +184,9 @@ body{
         height: auto;
     }
     .planos h3{
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
     
-
     .div-planos {
         display: flex;
         flex-direction: row;
@@ -209,28 +208,43 @@ body{
         margin-left: 2rem;
         margin-top: 24rem;
     }
+    .textimage1{
+        margin-left: -17rem;
+        margin-top: 9rem;
+    }
+    .textimage2{
+        margin-left: -17.7rem;
+        margin-top: 9rem;
+    }
     .textimage3{
-        margin-left: -18.1rem;
+        margin-left: -17rem;
         margin-top: 9rem;
     }
     .textimage1 img,
     .textimage2 img,
     .textimage3 img{
-        padding: 0.59rem;
+        padding: 0.54rem;
         margin-left: 0.07rem;
     }
     .planos .descricaoPlano2{
         font-size: 1.3rem;
         margin-top: 8rem;
+        margin-left: -7rem;
     }
     .planos .descricaoPlano1{
-        margin-left: -6rem;
+        font-size: 1.3rem;
+        margin-left: -8.9rem;
         margin-top: 8rem;
     }
-    .span .preco1, 
-    .span .preco2,
-    .span .preco3{
-        font-size: 2rem;
+    .planos .preco1, 
+    .planos .preco2,
+    .planos .preco3{
+        font-size: 2.6rem;
+    }
+    .planos .periodo1, 
+    .planos .periodo2,
+    .planos .periodo3{
+        font-size: 1.5rem;
     }
     
     .div-planos > div {
