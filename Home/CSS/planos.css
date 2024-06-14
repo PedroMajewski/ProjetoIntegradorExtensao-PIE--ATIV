@@ -180,6 +180,10 @@
         margin: 0 1rem;
         box-sizing: border-box;
     }
+    .div-planos .plano1, .div-planos .plano2,
+.div-planos .plano3{
+    height: 470px;
+}
     .carousel-indicators {
         display: flex;
         justify-content: center;
