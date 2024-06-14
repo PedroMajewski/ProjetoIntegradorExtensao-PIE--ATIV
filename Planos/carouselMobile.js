@@ -129,12 +129,8 @@ function carouselMobile() {
         goToSlide();
         updateSlides();
         updateDotHighlight();
-    } else { 
-        if (isMobile){
-            desativCarousel();
-            isMobile = true;
-        }
-    }
+    } 
+    
 }
 
 window.addEventListener('load', carouselMobile);
