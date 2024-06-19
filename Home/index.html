@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./CSS/duvidas.css">
     <link rel="stylesheet" href="./CSS/planos.css">
     <link rel="stylesheet" href="CSS/portifolio.css">
+    <link rel="stylesheet" href="./CSS/carousel.css">
 
          <!-- Link Slick  -->
          <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -128,7 +129,7 @@
                 </article>
             </div>
         </section>
-
+<!-- 
         <section class="diferencial-fundo">
             <div class="diferencial-div">
                 <h2>Nossos</h2>
@@ -145,6 +146,33 @@
                     </div>
 
                 </div>
+            </div>
+        </section> -->
+
+        <section class="carousel">
+            <div class="carouselTitulo">
+            <h2>Nossos</h2>
+            <h1>Diferenciais</h1>
+            </div>
+            <div class="carousel-container-global">
+                <button class="prev" onclick="prevSlide()">
+                    <img src="../Planos/Assets/seta.svg" alt="Anterior">
+                </button>
+                <div class="carousel-container" id="carousel-container">
+                    <div class="carouselCard-1" id="carouselCard1">
+                        <h2>Circuito</h2>
+                    </div>
+                    <div class="carouselCard-2" id="carouselCard2">
+                        <h2>Yoga</h2>
+                    </div>
+                    <div class="carouselCard-3" id="carouselCard3">
+                        <h2>Spinning</h2>
+                    </div>
+                </div>
+                <button class="next" onclick="nextSlide()">
+                    <img src="../Planos/Assets/seta.svg" alt="Proximo">
+                </button>
+                <script src="./carousel.js"></script>
             </div>
         </section>
 

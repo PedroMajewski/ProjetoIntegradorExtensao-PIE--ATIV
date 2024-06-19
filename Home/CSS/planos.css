@@ -144,7 +144,7 @@
     display: flex;
     justify-content: left;
     width: 285px;
-    height: 500px;
+    height: 450px;
     border: 2px solid rgb(44, 44, 44);
     border-radius: 10px;
     margin: 3rem;
@@ -214,6 +214,7 @@
     .div-planos .plano2,
     .div-planos .plano3 {
         height: 470px;
+        
     }
 
     .carousel-indicators {

@@ -1,0 +1,561 @@
+
+.carousel{
+    display: flex;
+    justify-content: center;
+    background-image: url("../Assets/img/portifolio/ativ2.png"), linear-gradient(to top, #07d366, #028545ce);;
+    background-size: contain;
+    height: 30rem;
+
+}
+
+.carousel-container-global{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.carousel button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.prev{
+    position: absolute;
+    left: 8%;
+    transition: .2s;
+}
+
+.next{
+    position: absolute;
+    left: 87%;
+    transform: .2s;
+}
+
+.next:hover{
+    transform: scale(1.2);
+    transition: .2s;
+}
+
+.prev:hover{
+    transform: scale(1.2);
+    transition: .2s;
+}
+
+.carousel .prev img {
+    width: 2rem;
+    height: 2rem;
+    border: none;
+}
+
+.carousel .next img {
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    transform: rotate(180deg);
+}
+
+.carouselCard-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16.8rem;
+    height: 11.1rem;
+    border-radius: 0.625rem;
+    margin: 2rem;
+    position: absolute;
+    left: 20%;
+    transition: .4s;
+    opacity: 80%;
+    z-index: 9;
+}
+
+.carouselCard-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16.8rem;
+    height: 11.1rem;
+    border-radius: 0.625rem;
+    margin: 2rem;
+    transform: scale(1.2);
+    position: absolute;
+    left: 41%;
+    transition: .4s;
+    z-index: 10;
+}
+
+.carouselCard-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16.8rem;
+    height: 11.1rem;
+    border-radius: 0.625rem;
+    margin: 2rem;
+    position: absolute;
+    left: 62%;
+    transition: .4s;
+    opacity: 80%;
+    z-index: 9;
+}
+
+#carouselCard1{
+    background-image: url("../Assets/img/portifolio/img1.png");
+    background-size: cover;
+    color: #fff;
+    flex-direction: column;
+    box-shadow: 0 5px 1rem #00000081;
+    cursor: pointer;
+}
+
+#carouselCard2{
+    background-image: url("../Assets/img/portifolio/img2.png");
+    background-size: cover;
+    color: #fff;
+    flex-direction: column;
+    box-shadow: 0 5px 1rem #00000081;
+    cursor: pointer;
+}
+
+#carouselCard3{
+    background-image: url("../Assets/img/portifolio/img3.png");
+    background-size: cover;
+    color: #fff;
+    flex-direction: column;
+    box-shadow: 0 5px 1rem #00000081;
+    cursor: pointer;
+}
+
+.carousel-container h2{
+    font-style: italic;
+    font-weight: 600;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.carouselTitulo h1{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: -1.7rem;
+
+}
+.carouselTitulo h2{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1450px) {
+    .prev{
+        position: absolute;
+        left: 5%;
+        transition: .2s;
+    }
+    
+    .next{
+        position: absolute;
+        left: 92%;
+        transform: .2s;
+    }
+    
+    .next:hover{
+        transform: scale(1.2);
+        transition: .2s;
+    }
+    
+    .prev:hover{
+        transform: scale(1.2);
+        transition: .2s;
+    }
+    
+    .carousel .prev img {
+        width: 2rem;
+        height: 2rem;
+        border: none;
+    }
+    
+    .carousel .next img {
+        width: 2rem;
+        height: 2rem;
+        border: none;
+        transform: rotate(180deg);
+    }
+    
+    .carouselCard-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16.8rem;
+        height: 11.1rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        position: absolute;
+        left: 10%;
+        transition: .4s;
+        opacity: 80%;
+    }
+    
+    .carouselCard-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16.8rem;
+        height: 11.1rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        transform: scale(1.2);
+        position: absolute;
+        left: 37%;
+        transition: .4s;
+    }
+    
+    .carouselCard-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16.8rem;
+        height: 11.1rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        position: absolute;
+        left: 64%;
+        transition: .4s;
+        opacity: 80%;
+    }   
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+    .prev{
+        position: absolute;
+        left: 3%;
+        transition: .2s;
+    }
+    
+    .next{
+        position: absolute;
+        left: 92%;
+        transform: .2s;
+    }
+    
+    .next:hover{
+        transform: scale(1.2);
+        transition: .2s;
+    }
+    
+    .prev:hover{
+        transform: scale(1.2);
+        transition: .2s;
+    }
+    
+    .carousel .prev img {
+        width: 2rem;
+        height: 2rem;
+        border: none;
+    }
+    
+    .carousel .next img {
+        width: 2rem;
+        height: 2rem;
+        border: none;
+        transform: rotate(180deg);
+    }
+    
+    .carouselCard-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16.8rem;
+        height: 11.1rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        position: absolute;
+        left: 6%;
+        transition: .4s;
+        opacity: 80%;
+    }
+    
+    .carouselCard-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16.8rem;
+        height: 11.1rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        transform: scale(1.2);
+        position: absolute;
+        left: 35%;
+        transition: .4s;
+    }
+    
+    .carouselCard-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16.8rem;
+        height: 11.1rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        position: absolute;
+        left: 64%;
+        transition: .4s;
+        opacity: 80%;
+    }   
+}
+
+@media screen and (min-width: 900px) and (max-width: 1100px) {
+    .prev{
+        position: absolute;
+        left: 3%;
+        transition: .2s;
+    }
+    
+    .next{
+        position: absolute;
+        left: 94%;
+        transform: .2s;
+    }
+    
+    .next:hover{
+        transform: scale(1.2);
+        transition: .2s;
+    }
+    
+    .prev:hover{
+        transform: scale(1.2);
+        transition: .2s;
+    }
+    
+    .carousel .prev img {
+        width: 2rem;
+        height: 2rem;
+        border: none;
+    }
+    
+    .carousel .next img {
+        width: 2rem;
+        height: 2rem;
+        border: none;
+        transform: rotate(180deg);
+    }
+    
+    .carouselCard-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 14rem;
+        height: 9rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        position: absolute;
+        left: 6%;
+        transition: .4s;
+        opacity: 80%;
+    }
+    
+    .carouselCard-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 14rem;
+        height: 9rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        transform: scale(1.2);
+        position: absolute;
+        left: 35%;
+        transition: .4s;
+    }
+    
+    .carouselCard-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 14rem;
+        height: 9rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        position: absolute;
+        left: 64%;
+        transition: .4s;
+        opacity: 80%;
+    }   
+
+    .carousel-container h2{
+        font-style: italic;
+        font-weight: 600;
+        color: #fff;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .prev{
+        position: absolute;
+        left: 3%;
+        transition: .2s;
+    }
+    
+    .next{
+        position: absolute;
+        left: 94%;
+        transform: .2s;
+    }
+    
+    .next:hover{
+        transform: scale(1.2);
+        transition: .2s;
+    }
+    
+    .prev:hover{
+        transform: scale(1.2);
+        transition: .2s;
+    }
+    
+    .carousel .prev img {
+        width: 2rem;
+        height: 2rem;
+        border: none;
+    }
+    
+    .carousel .next img {
+        width: 2rem;
+        height: 2rem;
+        border: none;
+        transform: rotate(180deg);
+    }
+    
+    .carouselCard-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 14rem;
+        height: 9rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        position: absolute;
+        left: 6%;
+        transition: .4s;
+        opacity: 80%;
+    }
+    
+    .carouselCard-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 14rem;
+        height: 9rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        transform: scale(1.2);
+        position: absolute;
+        left: 35%;
+        transition: .4s;
+    }
+    
+    .carouselCard-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 14rem;
+        height: 9rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        position: absolute;
+        left: 64%;
+        transition: .4s;
+        opacity: 80%;
+    }   
+}
+/* @media screen and (min-width: 700px) and (max-width: 100px) {
+    .prev{
+        position: absolute;
+        left: 5%;
+        transition: .2s;
+    }
+    
+    .next{
+        position: absolute;
+        left: 92%;
+        transform: .2s;
+    }
+    
+    .next:hover{
+        transform: scale(1.2);
+        transition: .2s;
+    }
+    
+    .prev:hover{
+        transform: scale(1.2);
+        transition: .2s;
+    }
+    
+    .carousel .prev img {
+        width: 2rem;
+        height: 2rem;
+        border: none;
+    }
+    
+    .carousel .next img {
+        width: 2rem;
+        height: 2rem;
+        border: none;
+        transform: rotate(180deg);
+    }
+    
+    .carouselCard-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8.4rem;
+        height: 5.5rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        position: absolute;
+        left: 10%;
+        transition: .4s;
+        opacity: 80%;
+    }
+    
+    .carouselCard-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8.4rem;
+        height: 5.5rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        transform: scale(1.2);
+        position: absolute;
+        left: 37%;
+        transition: .4s;
+    }
+    
+    .carouselCard-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8.4rem;
+        height: 5.5rem;
+        border-radius: 0.625rem;
+        margin: 2rem;
+        position: absolute;
+        left: 64%;
+        transition: .4s;
+        opacity: 80%;
+    }
+ } */
