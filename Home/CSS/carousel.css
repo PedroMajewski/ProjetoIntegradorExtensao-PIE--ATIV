@@ -487,6 +487,7 @@
 
     .div-carroselDiferencial {
         display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
         overflow: hidden;
@@ -505,6 +506,7 @@
         height: 11.1rem;
         border-radius: 0.625rem;
         transition: .4s;
+        margin: 3rem;
     }
 
     .diferencial2{
