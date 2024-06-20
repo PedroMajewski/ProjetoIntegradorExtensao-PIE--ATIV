@@ -1,10 +1,10 @@
 function carouselMobile() {
+    if (window.innerWidth <= 700) {
         const centro = document.getElementById("plano-2");
         const esquerda = document.getElementById("plano-1");
         const direita = document.getElementById("plano-3");
         const elementos = Array.from(document.querySelectorAll(".div-planos > div"));
         const container = document.getElementById("div-planosID");
-        container.classList.add("carousel-enabled");
         const dots = document.querySelectorAll(".dot");
 
         let startX;
@@ -16,22 +16,22 @@ function carouselMobile() {
 
         dots.forEach((dot, i) => {
             dot.addEventListener('click', () => {
-                goToSlide(i);
+                goToSlide(i); 
             });//Evento de clique em cada DOT :)
         });
 
-        container.addEventListener('touchstart', function (event) {
+        container.addEventListener('touchstart', function(event) {
             event.stopPropagation();
         });
 
         function handleTouchStart(event) {
             startX = event.touches[0].clientX;
             container.style.transition = 'none';
-
+            
         }
 
         function handleTouchMove(event) {
-
+            
         }
 
         function handleTouchEnd(event) {
@@ -81,17 +81,17 @@ function carouselMobile() {
 
         function updateSlides() {
             elementos.forEach((el, index) => {
-                const distanceFromCenter = index - 1;
-                const scaleFactor = Math.pow(1, Math.abs(distanceFromCenter));
-                const opacityFactor = Math.pow(1, Math.abs(distanceFromCenter));
+                const distanceFromCenter = index - 1; 
+                const scaleFactor = Math.pow(0.8, Math.abs(distanceFromCenter)); 
+                const opacityFactor = Math.pow(0.7, Math.abs(distanceFromCenter));
 
-                el.style.transform = `translateX(${distanceFromCenter * 5}%) scale(${scaleFactor})`;
+                el.style.transform = `translateX(${distanceFromCenter * 100}%) scale(${scaleFactor})`;
                 el.style.opacity = opacityFactor;
             });
         }
 
         function updateDotHighlight() {
-
+            
             dots.forEach(dot => {
                 dot.classList.remove('highlight');
             });
@@ -105,17 +105,22 @@ function carouselMobile() {
                 dots[2].classList.add('highlight');
             }
         }
-        
+
         goToSlide();
         updateSlides();
         updateDotHighlight();
+    }
 }
+
 window.addEventListener('load', carouselMobile);
 window.addEventListener('resize', carouselMobile);
 
 function carouselMobileDiferencial() {
     if (window.innerWidth <= 900) {
-        const elementosDif = Array.from(document.querySelectorAll(".div-carroselDiferencial>div"));
+        const centroDif = document.getElementById("diferencial2");
+        const esquerdaDif = document.getElementById("diferencial1");
+        const direitaDif = document.getElementById("diferencial3");
+        const elementosDif = Array.from(document.querySelectorAll(".div-carroselDiferencial > div"));
         const containerDif = document.getElementById("div-carroselDiferencial");
         const dotsDif = document.querySelectorAll(".dotD");
 
@@ -166,12 +171,14 @@ function carouselMobileDiferencial() {
             containerDif.insertBefore(elementosDif[elementosDif.length - 1], elementosDif[0]);
             elementosDif.unshift(elementosDif.pop());
             updateSlides();
+            updateDotHighlight();
         }
 
         function nextSlide() {
             containerDif.appendChild(elementosDif[0]);
             elementosDif.push(elementosDif.shift());
             updateSlides();
+            updateDotHighlight();
         }
 
         function goToSlide(index) {
@@ -200,6 +207,21 @@ function carouselMobileDiferencial() {
             });
         }
 
+        function updateDotHighlight() {
+            
+            dotsDif.forEach(dot => {
+                dot.classList.remove('highlight');
+            });
+
+            //Faz com que o DOT respectivo esteja com a classe "highlight"
+            if (elementosDif[1] === centroDif) {
+                dotsDif[1].classList.add('highlight');
+            } else if (elementosDif[1] === esquerdaDif) {
+                dotsDif[0].classList.add('highlight');
+            } else if (elementosDif[1] === direitaDif) {
+                dotsDif[2].classList.add('highlight');
+            }
+        }
 
         goToSlide();
         updateSlides();

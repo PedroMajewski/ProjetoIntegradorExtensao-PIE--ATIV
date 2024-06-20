@@ -495,14 +495,14 @@
         touch-action: pan-y pan-x;
     }
     
-    .div-carroselDiferencial .diferencial1,
-    .div-carroselDiferencial .diferencial2,
-    .div-carroselDiferencial .diferencial3 {
+    .diferencial1,
+    .diferencial2,
+    .diferencial3 {
         color: white;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 16.8rem;
+        width: 13.8rem;
         height: 11.1rem;
         border-radius: 10px;
         transition: .3s;
@@ -527,7 +527,7 @@
         background-position: center;
     }
 
-    .div-carroselDiferencial>div{
+    .div-carroselDiferencial>div {
         flex: 0 0 75%;
         scroll-snap-align: center;
         transition: transform 0.5s ease-in-out;
@@ -535,10 +535,10 @@
         box-sizing: border-box;
     }
 
-        .carousel-indicators {
+        .carousel-indicatorsDiferencial {
             display: flex;
             justify-content: center;
-            height: 1rem;
+            margin-top: 2rem;
         }
     
         .dotD {
