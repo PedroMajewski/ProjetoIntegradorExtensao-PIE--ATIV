@@ -5,7 +5,7 @@ function carouselMobileDiferencial() {
         const esquerda = document.getElementById("diferencial1");
         const direita = document.getElementById("diferencial3");
         const elementos = Array.from(document.querySelectorAll(".div-carroselDiferencial > div"));
-        const container = document.getElementById("carroselDif");
+        const container = document.getElementById("div-carroselDiferencial");
         const dots = document.querySelectorAll(".dotD");
 
         let startX;
@@ -86,7 +86,7 @@ function carouselMobileDiferencial() {
                 const scaleFactor = Math.pow(0.8, Math.abs(distanceFromCenter)); 
                 const opacityFactor = Math.pow(0.7, Math.abs(distanceFromCenter));
 
-                el.style.transform = `translateX(${distanceFromCenter * 100}%) scale(${scaleFactor})`;
+                el.style.transform = `translateX(${distanceFromCenter * 50}%) scale(${scaleFactor})`;
                 el.style.opacity = opacityFactor;
             });
         }
