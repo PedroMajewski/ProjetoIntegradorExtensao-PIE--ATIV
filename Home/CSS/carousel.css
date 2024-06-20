@@ -473,6 +473,7 @@
         background-image: url("../Assets/img/portifolio/ativ2.png"), linear-gradient(to top, #07d366, #028545ce);;
         background-size: contain;
         height: auto;
+        overflow: hidden;
     }
     
     
