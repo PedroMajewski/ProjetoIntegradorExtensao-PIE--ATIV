@@ -159,6 +159,58 @@
 
 }
 
+@media screen and (min-width: 1450px) and (max-width: 1600px) {
+    .prev{
+        position: absolute;
+        left: 5%;
+        transition: .2s;
+    }
+    
+    .next{
+        position: absolute;
+        left: 91%;
+        transform: .2s;
+    }
+    
+    .carouselCard-1{
+        left: 12%;
+    }
+    
+    .carouselCard-2{
+        left: 38.3%
+    }
+    
+    .carouselCard-3{
+        left: 64%;
+    }   
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1800px) {
+    .prev{
+        position: absolute;
+        left: 5%;
+        transition: .2s;
+    }
+    
+    .next{
+        position: absolute;
+        left: 91%;
+        transform: .2s;
+    }
+    
+    .carouselCard-1{
+        left: 15%;
+    }
+    
+    .carouselCard-2{
+        left: 40%
+    }
+    
+    .carouselCard-3{
+        left: 64%;
+    }   
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1450px) {
     .prev{
         position: absolute;
