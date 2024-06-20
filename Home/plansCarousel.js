@@ -27,11 +27,12 @@ function carouselMobile() {
         function handleTouchStart(event) {
             startX = event.touches[0].clientX;
             container.style.transition = 'none';
+            event.preventDefault();
             
         }
 
         function handleTouchMove(event) {
-            
+            event.preventDefault();
         }
 
         function handleTouchEnd(event) {
