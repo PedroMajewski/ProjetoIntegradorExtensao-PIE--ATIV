@@ -152,6 +152,7 @@
     font-weight: 400;
     font-style: italic;
     margin-top: -1.7rem;
+    margin-bottom: 0.5rem;
 
 }
 .carouselTitulo h2{
@@ -471,7 +472,7 @@
         align-items: center;
         background-image: url("../Assets/img/portifolio/ativ2.png"), linear-gradient(to top, #07d366, #028545ce);;
         background-size: contain;
-        height: 25rem;
+        height: auto;
     }
     
     
@@ -486,13 +487,13 @@
 
     .div-carroselDiferencial {
         display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: center;
         overflow: hidden;
         width: 100%;
         position: relative;
         touch-action: pan-y pan-x;
+        padding: 1rem;
     }
     
     .diferencial1,
@@ -546,7 +547,7 @@
     .carousel-indicatorsDiferencial {
             display: flex;
             justify-content: center;
-            margin-top: 2rem;
+            margin-bottom: 1rem;
         }
     
     .dotD {
