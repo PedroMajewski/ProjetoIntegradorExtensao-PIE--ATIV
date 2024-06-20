@@ -63,3 +63,4 @@ function nextSlide(){
         direita.className = "carouselCard-2"
     }
 }
+
