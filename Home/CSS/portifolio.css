@@ -34,13 +34,13 @@
 .portifolio {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin: 3rem;
+    padding: 3rem;
     flex-wrap: wrap;
     gap: 3rem;
     align-items: center;
     justify-content: center; 
     justify-items: center;
-    margin-bottom: 5rem;
+    padding-bottom: 5rem;
 }
 
 .div-portifolio {
@@ -63,9 +63,6 @@
         height: 200px;
     }
 
-    .grid-texto{
-        height: 42rem;
-    }
 }
 
 @media screen and (max-width:700px) {
@@ -87,13 +84,13 @@
     .portifolio {
         display: flex;
         grid-template-columns: repeat(3,1fr);
-        margin: 1rem;
+        padding: 1rem;
         flex-wrap: wrap;
         gap: 1rem;
         align-items: center;
         justify-content: center; 
         justify-items: center;
-        margin-bottom: 5rem;
+        padding-bottom: 5rem;
     }
 
     .estrutura-texto h1{

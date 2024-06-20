@@ -23,7 +23,6 @@ body{
     flex-direction: column;
     align-items: center;
     height: 40rem;
-    margin-top: 6rem;
     background: #101010;
 }
 .planos h1{

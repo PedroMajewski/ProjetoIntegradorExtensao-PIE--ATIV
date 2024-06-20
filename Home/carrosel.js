@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    if ($(window).width() < 768) { 
+    if ($(window).width() < 750) { 
         $('.portifolio').slick({ 
             slidesToShow: 1, 
             slidesToScroll: 1, 

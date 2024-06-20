@@ -13,10 +13,8 @@
     <link rel="stylesheet" href="./CSS/introducao-horarios.css">
     <!--CSS Quadro Horários-->
     <link rel="stylesheet" href="./CSS/quadrodorarios.css">
-    <!--CSS Diferencial-->
-    <link rel="stylesheet" href="./CSS/dife.css">
-    <!--CSS COROSEL-->
-    <link rel="stylesheet" href="./CSS/corosel.css">
+    <!--CSS CARROSEL-->
+    <link rel="stylesheet" href="./CSS/carousel.css">
 
     <link rel="icon" type="image/x-icon" href="../Home/Assets/Header/Favicon-ativ.png">
     <title>Quadro de Horários - ATIV</title>
@@ -87,37 +85,58 @@
             <div class="tabela-horarios">
                 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSffvCWHidtoGFiJKVJxCeXfFvHVtmgxCzwHbnIZ2N00FNJNuSYdKfuGDmnnD4Y_Ss3mp2730rZx286/pubhtml?widget=true&amp;headers=false"></iframe>
             </div>
-            <section class="diferencial-fundo">
-                <div class="diferencial-div">
-                    <h2>Nossos</h2>
-                    <h1>Diferenciais</h1>
+        </section>  
+        <section class="carousel">
+            <div class="carouselTitulo">
+                <h2>Nossos</h2>
+                <h1>Diferenciais</h1>
+            </div>
+            <div class="carousel-container-global">
+                <button class="prev" onclick="prevSlide()">
+                    <img src="../Planos/Assets/seta.svg" alt="Anterior">
+                </button>
+                <div class="carousel-container" id="carousel-container">
+                    <div class="carouselCard-1" id="carouselCard1">
+                        <h2>Circuito</h2>
+                    </div>
+                    <div class="carouselCard-2" id="carouselCard2">
+                        <h2>Yoga</h2>
+                    </div>
+                    <div class="carouselCard-3" id="carouselCard3">
+                        <h2>Spinning</h2>
                     </div>
                 </div>
-                <div class="carosel">
-                    <div class="carosel-container-global">
-                        <button class="prev" onclick="prevSlide()">
-                            <img src="../Planos/Assets/Seta_esquerda-transformed.png" alt="Anterior">
-                        </button>
-                        <div class="carosel-container" id="carosel-container">
-                            <div class="caroselCard-1" id="caroselCard1">
-                                <h2>Spinning</h2>
-                            </div>
-                            <div class="caroselCard-2" id="caroselCard2">
-                                <h2>Circuito</h2>
-                            </div>
-                            <div class="caroselCard-3" id="caroselCard3">
-                                <h2>Yoga</h2>
-                            </div>
-                        </div>
-                        <button class="next" onclick="nextSlide()">
-                            <img src="../Planos/Assets/Seta_esquerda-transformed.png" alt="Proximo">
-                        </button>
-                        <script src="./carosel.js"></script>
-                    </div>
+                <button class="next" onclick="nextSlide()">
+                    <img src="../Planos/Assets/seta.svg" alt="Proximo">
+                </button>
+            </div>
+            <script src="./carroselDiferencial.js"></script>
+        </section>
+
+        <section class="carroselDiferencial" id="carroselDif">
+            <div class="carouselTitulo">
+                <h2>Nossos</h2>
+                <h1>Diferenciais</h1>
+            </div>
+            <div class="div-carroselDiferencial" id="div-carroselDiferencial">
+                <div class="diferencial1" id="diferencial1">
+                    <h3>Circuito</h3>
                 </div>
-                </section>  
-          
-            <section class="rodape2">
+                <div class="diferencial2" id="diferencial2">
+                    <h3>Yoga</h3>
+                </div>
+                <div class="diferencial3" id="diferencial3">
+                    <h3>Spinning</h3>
+                </div>
+            </div>
+            <div class="carousel-indicatorsDiferencial" id="carousel-indicators">
+                <span class="dotD" data-index="0"></span>
+                <span class="dotD" data-index="1"></span>
+                <span class="dotD" data-index="2"></span>
+            </div>
+        </section>
+        <script src="carroselDiferencialMobile.js"></script>
+        <section class="rodape2">
                 <div class="principal2">
                     <h1>"Você é mais&nbsp; <strong>FORTE</strong>&nbsp; do que pensa!"</h1>
                 </div>
@@ -125,7 +144,6 @@
                     <a href="https://api.whatsapp.com/send?phone=554533777654" target="_blank"><button>Matricule - se já!</button></a>
                     <h1></h1>
                 </div>
-            </section>
         </section>
     </main>
     
@@ -165,5 +183,7 @@
         </div>
     </footer>
     <script src="../Home/header.js"></script>
+    <script src="../Home/carroselDiferencialMobile.js"></script>
+    <script src="../Home/carroselDiferencial.js"></script>
 </body>
 </html>
