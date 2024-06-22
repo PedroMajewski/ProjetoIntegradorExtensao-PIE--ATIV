@@ -68,8 +68,13 @@ body {
 
 .arrow-img {
     width: 1.5rem; 
-    height: auto;
     margin-left: 1rem; 
+    transition: .3s;
+}
+
+.arrow-img.aberto{
+    rotate: 180deg; 
+    transition: .3s;
 }
 
 .duvida-item {
@@ -78,32 +83,33 @@ body {
 }
 
 .resposta-container {
-    display: none;
-    padding: 1rem; 
+    display: block;
     border: 2px solid #00C65E;
     top: calc(100% + 5px);
     width: 100%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    height: auto;
-    transition: .5s;
+    height: 0;
+    overflow: hidden;
+    transition: .3s;
 }
 
 .resposta-container.aberto {
-    display: block;
-    transition: .5s;
+    padding: 1rem;
+    height: auto;
+    transition: .3s;
 }
 
 .resposta {
     margin: 0.5rem 0; 
-    font-size: 1.25rem; 
-     transition: .3s;
+    font-size: 1.25rem;
+    transition: .3s;
 }
 
 .linha-duvida {
     display: flex;
     align-items: center;
-    cursor: pointer; 
+    cursor: pointer;
     transition: .3s;
 }
 
@@ -112,8 +118,12 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    transition: .3s;
 }
+
+.duvidas-frequentes-titulo{
+    margin-bottom: 12%;
+}
+
 
 .duvidas-frequentes-titulo h1{
     color: var(--cor-principal);
@@ -133,24 +143,6 @@ body {
     
 }
 
-
-#Envie {
-    justify-content: center;
-    display: flex;
-    margin-top: 5rem;
-    height: 2rem;   
-    gap: 5rem;
-
-}
-
-#Envie input[type="text"] {
-    width: 300px; 
-    height: 40px; 
-    font-size: 1.5rem; 
-    padding: 10px; 
-    margin: 0 10px; 
-}
-
 #duvida-enviar {
     justify-content: center;
     display: flex;
@@ -163,6 +155,88 @@ body {
     display: flex;
     font-size: 2rem;
     transition: .3s;
+}
+
+.EnviarDuvida{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25rem;
+    background-image: url("../Home/Assets/img/portifolio/ativ2.png"), linear-gradient(var(--cor-fundo), var(--cor-fundo));
+}
+
+.EnviarDuvidaTitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.EnviarDuvidaTitulo h1{
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: -1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.EnviarDuvidaTitulo h2{
+    color: #d1d1d1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.DuvidaForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.DuvidaForm input{
+    padding: 1rem;
+    border: none;
+    margin: 0 2rem;
+    border-radius: 4px;
+    background-color: #444444;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.DuvidaForm input:focus{
+    color: #fff;
+    border: solid;
+    border-color: #00C65E;
+    border-width: 1.5px;
+    outline: none;
+    box-shadow: 0 0.3rem 1rem var(--cor-principal);
+}
+
+.DuvidaForm button{
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0.8rem 2rem;
+    border: 2px solid var(--cor-principal); 
+    border-radius: 8px; 
+    background-color: transparent; 
+    font-weight: 300;
+    transition: .2s;
+    font-size:medium;
+}
+
+.DuvidaForm button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0.3rem 1rem var(--cor-principal);
+    transition: .2s;
 }
 
 @media screen and (min-width:1100px) and (max-width:1400px) {
@@ -198,10 +272,17 @@ body {
 }
 
 @media screen and (max-width:450px) {
+
+    
+.duvida-texto {
+    font-size: 1.2rem; 
+    margin-bottom: 1rem; 
+}
+
     .body-duvidas {
         background-color: var(--cor-fundo);
         background-image: linear-gradient(#0000008b,#0000008b), url('img/background.jpg');
-        background-size: 300%;
+        background-size: 320%;
         background-position: top left 35% 35%;
     }
 
@@ -213,12 +294,47 @@ body {
         font-size: 2.2rem;
         font-family: "Barlow", sans-serif;
     }
+
+    .duvida-container {
+        padding: 2rem;
+    }
     
     .duvidas-frequentes-titulo h2{
         text-align: center;
         color: white;
         font-weight: 100;
         margin: 0;
+        font-size: 1rem;
+    }
+
+    .DuvidaForm {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .DuvidaForm input{
+        padding: 1rem;
+        border: none;
+        margin: 0.6rem 0rem;
+        border-radius: 4px;
+        background-color: #444444;
+        font-size: 1rem;
+        color: #fff;
+    }
+
+    .EnviarDuvidaTitulo h1{
+        color: #fff;
+        text-align: center;
         font-size: 1.5rem;
+        font-weight: 400;
+        font-style: italic;
+        margin-top: -1.2rem;
+        margin-bottom: -1rem;
+    }
+
+    .DuvidaForm button{
+        margin-top: 1rem;
     }
 }
