@@ -11,7 +11,6 @@
     background-image: url("../Home/Assets/img/portifolio/ativ2.png"), linear-gradient(var(--cor-fundo), var(--cor-fundo));
     background-size: contain;
     height: 30rem;
-    margin-top: 3rem;
 }
 
 .carroselDiferencial{
@@ -225,6 +224,8 @@
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1450px) {
+
+
     .prev{
         position: absolute;
         left: 5%;
