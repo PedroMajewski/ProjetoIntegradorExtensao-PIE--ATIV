@@ -106,10 +106,31 @@ function carouselMobile() {
                 dots[2].classList.add('highlight');
             }
         }
+        function desativCarousel() {
+            container.removeEventListener('touchstart', handleTouchStart, false);
+            container.removeEventListener('touchmove', handleTouchMove, false);
+            container.removeEventListener('touchend', handleTouchEnd, falses);
+    
+            dots.forEach((dot, i) => {
+                dot.removeEventListener('click', () => {
+                    goToSlide(i); 
+                });
+            });
+    
+            elementos.forEach((el) => {
+                el.style.transform = '';
+                el.style.opacity = '';
+            });
+    
+            container.innerHTML = '';
+            elementos.forEach(el => container.appendChild(el));
+        }
 
         goToSlide();
         updateSlides();
         updateDotHighlight();
+    } else {
+        desativCarousel();
     }
 }
 
