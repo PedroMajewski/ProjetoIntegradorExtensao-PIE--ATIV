@@ -9,7 +9,6 @@ function carouselMobile() {
 
         let startX;
         let index = 1; // Índice do card central
-        let isMobile = false;
 
         container.addEventListener('touchstart', handleTouchStart, false);
         container.addEventListener('touchmove', handleTouchMove, false);
@@ -83,10 +82,10 @@ function carouselMobile() {
         function updateSlides() {
             elementos.forEach((el, index) => {
                 const distanceFromCenter = index - 1; 
-                const scaleFactor = Math.pow(0.8, Math.abs(distanceFromCenter)); 
-                const opacityFactor = Math.pow(0.7, Math.abs(distanceFromCenter));
+                const scaleFactor = Math.pow(1, Math.abs(distanceFromCenter)); 
+                const opacityFactor = Math.pow(1, Math.abs(distanceFromCenter));
 
-                el.style.transform = `translateX(${distanceFromCenter * 100}%) scale(${scaleFactor})`;
+                el.style.transform = `translateX(${distanceFromCenter * 5}%) scale(${scaleFactor})`;
                 el.style.opacity = opacityFactor;
             });
         }
@@ -109,7 +108,7 @@ function carouselMobile() {
         function desativCarousel() {
             container.removeEventListener('touchstart', handleTouchStart, false);
             container.removeEventListener('touchmove', handleTouchMove, false);
-            container.removeEventListener('touchend', handleTouchEnd, false);
+            container.removeEventListener('touchend', handleTouchEnd, falses);
     
             dots.forEach((dot, i) => {
                 dot.removeEventListener('click', () => {
@@ -129,7 +128,9 @@ function carouselMobile() {
         goToSlide();
         updateSlides();
         updateDotHighlight();
-    } 
+    } else {
+        desativCarousel();
+    }
     
 }
 

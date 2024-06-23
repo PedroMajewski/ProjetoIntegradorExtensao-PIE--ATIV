@@ -83,10 +83,10 @@ function carouselMobile() {
         function updateSlides() {
             elementos.forEach((el, index) => {
                 const distanceFromCenter = index - 1; 
-                const scaleFactor = Math.pow(0.8, Math.abs(distanceFromCenter)); 
-                const opacityFactor = Math.pow(0.7, Math.abs(distanceFromCenter));
+                const scaleFactor = Math.pow(1, Math.abs(distanceFromCenter)); 
+                const opacityFactor = Math.pow(1, Math.abs(distanceFromCenter));
 
-                el.style.transform = `translateX(${distanceFromCenter * 100}%) scale(${scaleFactor})`;
+                el.style.transform = `translateX(${distanceFromCenter * 5}%) scale(${scaleFactor})`;
                 el.style.opacity = opacityFactor;
             });
         }
