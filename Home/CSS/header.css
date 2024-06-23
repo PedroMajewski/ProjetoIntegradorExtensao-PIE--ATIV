@@ -286,6 +286,10 @@ content: '';
         box-shadow: 0 0 1.2rem var(--cor-principal);
     }
 
+    #IconeBtn {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width:700px) {

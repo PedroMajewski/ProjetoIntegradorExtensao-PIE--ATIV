@@ -86,7 +86,7 @@
         align-items: center;
         height: 17rem;
         width: 100%;
-        background-image: url(../Home/Assets/SemiRodapeAsset2.jpg);
+        background-image:linear-gradient(#00000050,#000000b2), url(../Home/Assets/SemiRodapeAsset2.jpg);
         background-size: cover;
         background-position: center;
     }

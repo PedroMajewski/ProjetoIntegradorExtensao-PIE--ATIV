@@ -30,7 +30,7 @@ body {
     text-align: center;
     color: white;
     font-weight: 300;
-    margin-top: 3rem;
+    margin-top: -1rem;
 }
 
 .planos h3 {
@@ -38,6 +38,18 @@ body {
     font-size: 1.5rem;
     text-align: center;
     margin-left: 2rem;
+}
+
+.planos h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+    font-size: 2.2rem;
+    margin-top: 2rem;
 }
 
 .planos .text {
@@ -278,9 +290,8 @@ body {
 @media screen and (max-width: 780px) {
     .body-planos {
         background-image: url("../Planos/Assets/fundo-planos.jpg");
-        
         background-position: top;
-        background-size: 200%;
+        background-size: 300%;
         background-attachment: local;
         background-color: var(--cor-fundo)
     }
@@ -290,7 +301,6 @@ body {
         flex-direction: column;
         align-items: center;
         height: auto;
-        margin-top: -3rem;
     }
 
     .planos h3 {
@@ -304,7 +314,7 @@ body {
         align-items: center;
         justify-content: center;
         overflow: hidden;
-        width: 20rem;
+        width: 24rem;
         position: relative;
         touch-action: pan-y pan-x;
     }
@@ -312,14 +322,13 @@ body {
     .div-planos .plano1,
     .div-planos .plano2,
     .div-planos .plano3 {
-        width: 26rem;
+        width: 470px;
 
     }
 
     .text button {
         height: 3.2rem;
         width: 10rem;
-        margin-left: 0;
         margin-top: 18rem;
     }
 

@@ -1,5 +1,5 @@
 function carouselMobile() {
-    if (window.innerWidth <= 780) {
+    if (window.innerWidth <= 900) {
         const centro = document.getElementById("plano-2");
         const esquerda = document.getElementById("plano-1");
         const direita = document.getElementById("plano-3");
