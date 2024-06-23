@@ -1,15 +1,15 @@
-:root{
-    --cor-principal:#00C65E;
-    --cor-fundo:#101010;
-    --cor-claro:#FFF;
+:root {
+    --cor-principal: #00C65E;
+    --cor-fundo: #101010;
+    --cor-claro: #FFF;
 }
 
-body{
+body {
     font-family: "Barlow", sans-serif;
     background-color: #101010;
 }
 
-.body-planos{
+.body-planos {
     background-image: url("../Planos/Assets/fundo-planos.jpg");
     background-repeat: no-repeat;
     background-position: top;
@@ -18,40 +18,36 @@ body{
     background-color: var(--cor-fundo)
 }
 
-.planos{
+.planos {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 40rem;
     background: #101010;
 }
-.planos h1{
-    color: var(--cor-principal);
-    font-weight: 500;
-    font-style: italic;
-    text-shadow: 0 0rem 0.5rem var(--cor-principal);
-    font-size: 2.2rem;
-    font-family: "Barlow", sans-serif;
-}
-.planos h2{
+
+.planos h2 {
     text-align: center;
     color: white;
-    font-weight: 100;
-    margin: 0;
+    font-weight: 300;
+    margin-top: 3rem;
 }
-.planos h3{
+
+.planos h3 {
     display: flex;
     font-size: 1.5rem;
     text-align: center;
     margin-left: 2rem;
 }
-.planos .text{
+
+.planos .text {
     display: flex;
     text-align: left;
     font-size: 1rem;
     margin-left: 2rem;
 }
-.planos .descricaoPlano1{
+
+.planos .descricaoPlano1 {
     display: flex;
     flex-wrap: wrap;
     margin-left: -6rem;
@@ -60,27 +56,30 @@ body{
     align-items: center;
     font-size: 1rem;
 }
-.planos .descricaoPlano2{
+
+.planos .descricaoPlano2 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 5rem;
     margin-left: -4.9rem;
 }
+
 .textimage1 {
     display: flex;
     justify-content: left;
     flex-direction: column;
     margin-left: -13.4rem;
-    margin-top: 5.9rem; 
+    margin-top: 5.9rem;
 }
 
 .textimage1 img {
-    width: 0.5rem; 
-    height: 0.5rem; 
-    margin: 0 5px; 
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0 5px;
     padding: 0.35rem;
 }
-.text button{
+
+.text button {
     border-style: solid;
     border-color: #00C65E;
     border-radius: 1rem;
@@ -99,55 +98,61 @@ body{
     margin-left: 1.08rem;
     margin-top: 19rem;
 }
-.text button:hover{
+
+.text button:hover {
     background-color: var(--cor-principal);
     border-color: var(--cor-principal);
     transition: .2s;
     transform: scale(1.1);
     box-shadow: 0 0 1.2rem var(--cor-principal);
 }
+
 .textimage2 {
     display: flex;
     justify-content: left;
     flex-direction: column;
     margin-left: -13.8rem;
-    margin-top: 5.9rem; 
+    margin-top: 5.9rem;
 }
 
 .textimage2 img {
-    width: 0.5rem; 
-    height: 0.5rem; 
-    margin: 0 5px; 
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0 5px;
     padding: 0.35rem;
 }
+
 .textimage3 {
     display: flex;
     justify-content: left;
     flex-direction: column;
     margin-left: -13.4rem;
-    margin-top: 5.9rem; 
+    margin-top: 5.9rem;
 }
 
 .textimage3 img {
-    width: 0.5rem; 
-    height: 0.5rem; 
-    margin: 0 5px; 
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 0 5px;
     padding: 0.35rem;
 }
 
 
-.planos .preco1, .planos .preco2,
-.planos .preco3{
+.planos .preco1,
+.planos .preco2,
+.planos .preco3 {
     font-size: 1.8rem;
 }
-.div-planos{
+
+.div-planos {
     display: flex;
     justify-content: space-between;
     width: auto;
 }
 
-.div-planos .plano1, .div-planos .plano2,
-.div-planos .plano3{
+.div-planos .plano1,
+.div-planos .plano2,
+.div-planos .plano3 {
     color: white;
     display: flex;
     justify-content: left;
@@ -160,128 +165,229 @@ body{
     flex-direction: column;
     align-items: left;
 }
-.plano1{
+
+.plano1 {
     background-image: url('./Assets/Rectangle41.jpg');
     background-size: cover;
     background-position: center;
 }
-.plano2{
+
+.plano2 {
     background-image: url('./Assets/Rectangle42.jpg');
     background-size: cover;
     background-position: center;
 }
-.plano3{
+
+.plano3 {
     background-image: url('./Assets/Rectangle43.jpg');
     background-size: cover;
     background-position: center;
 }
 
 @media screen and (min-width:451px) and (max-width:1100px) {
-    
-    .body-planos{
-    margin: 0;
-    padding: 0;
-    font-family: "Barlow", sans-serif;
-    background-image: url('../Planos/Assets/fundo-planos.jpg');
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 280%;
-    background-color: var(--cor-fundo);
+
+    .body-planos {
+        margin: 0;
+        padding: 0;
+        font-family: "Barlow", sans-serif;
+        background-image: url('../Planos/Assets/fundo-planos.jpg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 280%;
+        background-color: var(--cor-fundo);
+    }
+    .planos{
+        margin-top: -10rem;
+    }
+
+    .planos h3 {
+        font-size: 1.8rem;
+        margin-left: 1rem;
+    }
+
+    .planos .preco1,
+    .planos .preco2,
+    .planos .preco3 {
+        font-size: 2rem;
+        margin-left: -1rem;
+    }
+
+    .planos .text {
+        font-size: 1.1rem;
+    }
+
+    .planos .plano1,
+    .planos .plano2,
+    .planos .plano3 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .planos .descricaoPlano1 {
+        margin-left: -6.7rem;
+        font-size: 1rem;
+    }
+
+    .planos .descricaoPlano2 {
+        font-size: 1rem;
+        margin-left: -5.3rem;
+    }
+
+    .div-planos {
+        display: flex;
+        margin-top: 2rem;
+    }
+
+    .div-planos .plano1,
+    .div-planos .plano2,
+    .div-planos .plano3 {
+        width: 16rem;
+    }
+
+    .text button {
+        margin-left: 1rem;
+    }
+
+    .textimage1 {
+        margin-left: -13.6rem;
+        margin-top: 6.2rem;
+    }
+
+    .textimage1 img {
+        padding: 0.33rem;
+    }
+
+    .textimage2 {
+        margin-left: -14rem;
+        margin-top: 6rem;
+    }
+
+    .textimage2 img {
+        padding: 0.35rem;
+    }
+
+    .textimage3 {
+        margin-left: -13.5rem;
+    }
+
+    .textimage3 img {
+        padding: 0.398rem;
+    }
 }
 
-}
-
-@media screen and (max-width: 900px) {
-    .body-planos{
+@media screen and (max-width: 780px) {
+    .body-planos {
         background-image: url("../Planos/Assets/fundo-planos.jpg");
-        background-repeat: repeat;
+        
         background-position: top;
         background-size: 200%;
         background-attachment: local;
         background-color: var(--cor-fundo)
     }
-    
+
     .planos {
         display: flex;
         flex-direction: column;
         align-items: center;
         height: auto;
+        margin-top: -3rem;
     }
-    .planos h3{
-        font-size: 2rem;
+
+    .planos h3 {
+        font-size: 1.4rem;
+        margin-left: 1rem;
     }
-    
+
     .div-planos {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center; 
-        overflow: hidden; 
-        width: 85%;
+        justify-content: center;
+        overflow: hidden;
+        width: 20rem;
         position: relative;
         touch-action: pan-y pan-x;
     }
-    .div-planos .plano1, .div-planos .plano2, 
-    .div-planos .plano3{
-        height: 36rem;
-        
+
+    .div-planos .plano1,
+    .div-planos .plano2,
+    .div-planos .plano3 {
+        width: 26rem;
+
     }
-    .text button{
-        height: 4rem;
+
+    .text button {
+        height: 3.2rem;
         width: 10rem;
-        margin-left: 2rem;
-        margin-top: 24rem;
+        margin-left: 0;
+        margin-top: 18rem;
     }
-    .textimage1{
-        margin-left: -17rem;
-        margin-top: 9rem;
+
+    .textimage1 {
+        margin-left: -12.3rem;
+        margin-top: 6rem;
     }
-    .textimage2{
-        margin-left: -17.7rem;
-        margin-top: 9rem;
+
+    .textimage1 img {
+        padding: 0.28rem;
     }
-    .textimage3{
-        margin-left: -17rem;
-        margin-top: 9rem;
+
+    .textimage2 {
+        margin-left: -12.7rem;
+        margin-top: 6rem;
     }
-    .textimage1 img,
-    .textimage2 img,
-    .textimage3 img{
-        padding: 0.54rem;
-        margin-left: 0.07rem;
+
+    .textimage2 img {
+        padding: 0.28rem;
     }
-    .planos .descricaoPlano2{
-        font-size: 1.3rem;
-        margin-top: 8rem;
-        margin-left: -7rem;
+
+    .textimage3 {
+        margin-left: -12.2rem;
+        margin-top: 6rem;
     }
-    .planos .descricaoPlano1{
-        font-size: 1.3rem;
-        margin-left: -8.9rem;
-        margin-top: 8rem;
+
+    .textimage3 img {
+        padding: 0.28rem;
     }
-    .planos .preco1, 
+
+    .planos .descricaoPlano2 {
+        font-size: 0.9rem;
+        margin-top: 5rem;
+        margin-left: -5.8rem;
+    }
+
+    .planos .descricaoPlano1 {
+        font-size: 0.9rem;
+        margin-left: -7.5rem;
+        margin-top: 5rem;
+    }
+
+    .planos .preco1,
     .planos .preco2,
-    .planos .preco3{
-        font-size: 2.6rem;
+    .planos .preco3 {
+        font-size: 2rem;
+        margin-left: -1rem;
     }
-    .planos .periodo1, 
+
+    .planos .periodo1,
     .planos .periodo2,
-    .planos .periodo3{
+    .planos .periodo3 {
         font-size: 1.5rem;
     }
-    
-    .div-planos > div {
-        flex: 0 0 75%; 
+
+    .div-planos>div {
+        flex: 0 0 75%;
         scroll-snap-align: center;
         transition: transform 0.5s ease-in-out;
         margin: 0 1rem;
         box-sizing: border-box;
     }
+
     .carousel-indicators {
         display: flex;
         justify-content: center;
         height: 1rem;
+        margin-top: -1rem;
     }
 
     .dot {
@@ -294,14 +400,9 @@ body{
         transition: background-color 0.6s ease;
     }
 
-    
+
     .dot.highlight {
         transform: scale(1.3);
         background-color: #00C65E;
     }
 }
-
-
-
-
-
