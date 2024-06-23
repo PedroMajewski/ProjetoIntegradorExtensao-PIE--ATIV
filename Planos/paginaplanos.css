@@ -191,7 +191,7 @@ body{
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
     .body-planos{
         background-image: url("../Planos/Assets/fundo-planos.jpg");
         background-repeat: repeat;

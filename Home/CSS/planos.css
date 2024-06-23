@@ -171,13 +171,35 @@
     background-size: cover;
     background-position: center;
 }
+@media screen and (min-width: 780px) and (max-width: 950px){
+    .planos h3{
+        font-size: 1.8rem;
+    }
+    .planos .preco1,
+    .planos .preco2,
+    .planos .preco3{
+        font-size: 2rem;
+    }
+    .planos .text{
+        font-size: 1.1rem;
+    }
+    .text button{
+        margin-left: 1rem;
+    }
+    .textimage2{
+        margin-left: -15.1rem;
+    }
 
-@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 780px) {
     .planos {
         display: flex;
         flex-direction: column;
         align-items: center;
         height: auto;
+    }
+    .planos h3{
+        font-size: 1.6rem;
     }
 
     .div-planos {
@@ -186,12 +208,12 @@
         align-items: center;
         justify-content: center;
         overflow: hidden;
-        width: 100%;
+        width: 24rem;
         position: relative;
         touch-action: pan-y pan-x;
     }
     .planos .descricaoPlano2{
-        margin-left: -5rem;
+        margin-left: -4.7rem;
     }
     .textimage1 img,
     .textimage2 img, 
@@ -200,6 +222,9 @@
     }
     .textimage2{
         margin-left: -13.89rem;
+    }
+    .text button{
+        margin-left: 1rem;
     }
 
     .div-planos>div {
@@ -239,3 +264,4 @@
         background-color: #00C65E;
     }
 }
+
