@@ -26,9 +26,7 @@ function carouselMobile() {
 
         function handleTouchStart(event) {
             startX = event.touches[0].clientX;
-            container.style.transition = 'none';
-            event.preventDefault();
-            
+            container.style.transition = 'none';            
         }
 
         function handleTouchMove(event) {
