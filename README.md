@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/11302d73-10cc-41f4-a8ce-d2a764f5c1af)# ProjetoIntegradorExtensao-PIE--ATIV
+# ProjetoIntegradorExtensao-PIE--ATIV
 
 ![image](https://github.com/user-attachments/assets/7111f23b-9afb-4924-846f-275bc0690f53)
 
