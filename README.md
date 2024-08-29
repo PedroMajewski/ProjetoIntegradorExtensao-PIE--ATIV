@@ -1,31 +1,40 @@
-# ProjetoIntegradorExtensao-PIE--ATIV
-Projeto de Extensão, com criação de uma aplicação web para academia - ATIV - Foz do Iguaçu, Paraná.
-**NOME:** ProjetoIntegradorExtensao-PIE--ATIV
+![image](https://github.com/user-attachments/assets/11302d73-10cc-41f4-a8ce-d2a764f5c1af)# ProjetoIntegradorExtensao-PIE--ATIV
 
-**INTEGRANTES:** Pedro Henrique Majewski, Gabriel Nunes, Gabriel Marrone, Patryk Rennan, Danley Fernando
+![image](https://github.com/user-attachments/assets/7111f23b-9afb-4924-846f-275bc0690f53)
 
-**DESCRIÇÃO:** O projeto tem como finalidade a criação de uma aplicação web para a academia ATIV , simplificando a interação entre o consumidor e o profissional,além de proporcionar um aumento na visibilidade da empresa. Neste documento, será detalhado não somente a funcionalidade, mas também a visão e nosso objetivo com o mesmo.
 
-**REQUISITOS FUNCIONAIS**
+Projeto de Extensão do Centro Universitário União das Américas UniAmérica, com criação de uma aplicação web para a academia ATIV - Foz do Iguaçu, Paraná.
 
-**RF01 - Organização:** O site deve ter um espaço com fotos da estrutura do
-local.
+## DESCRIÇÃO
 
-**RF02 - Informação:** O site terá uma aba “Sobre” contando um pouco sobre a
-academia.
+O projeto tem como finalidade a criação de uma aplicação web para a academia ATIV , simplificando a interação entre o consumidor e o profissional,além de proporcionar um aumento na visibilidade da empresa.Na Aplicação o Usuário pode acessar, e checar informações sobre a academia, tirar suas dúvidas e também consultar o WhatsApp da Empresa.
 
-**RF03 - Comunicação Concisa:** O site deverá deixar bem explícito as redes
-sociais e meios para comunicação.
+## INTEGRANTES DO PROJETO:
 
-**RF04 - Serviços:** Deve mostrar os planos oferecidos pela academia.
+ Pedro Henrique Majewski, Gabriel Nunes, Gabriel Marrone, Patryk Rennan, Danley Fernando
 
-**RF05 - Comunicação:** O site deve ter uma aba com as dúvidas frequentes para
-os usuários.
+## FUNCIONALIDADES
 
-**TECNOLOGIAS**
+- Consulta de Tabela de Preços.
+- Consulta de FAQ - Dúvidas mais frequentes da academia.
+- Diferencias além da academia - Café, Yoga, Spinning, etc.
+- Consultar Horários da Aulas.
+
+## TECNOLOGIAS
 
 - HTML5
 - CSS3
 - JAVASCRIPT
 - BOOTSTRAP
 - FIGMA
+
+## Acesse Aqui:
+
+[https://previsao-tempo-projeto.vercel.app/](https://ativ-preview.netlify.app/home/)
+
+## Imagens:
+
+![image](https://github.com/user-attachments/assets/966fb692-1023-4df9-9caa-2ab98aeb1479)
+
+![image](https://github.com/user-attachments/assets/384edbba-eaa9-431b-a069-e35aa8280e8f)
+
